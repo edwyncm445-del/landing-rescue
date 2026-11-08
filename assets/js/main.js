@@ -101,7 +101,7 @@
 
   var status = document.getElementById("form-status");
   var successPanel = document.getElementById("form-success");
-  var email = CONFIG.contactEmail || "hello@landingrescue.co.uk";
+  var email = CONFIG.contactEmail || "landingrescue.business@gmail.com";
 
   var validators = {
     "f-name": function (v) { return v.trim().length >= 2 || "Please tell us your name."; },
@@ -211,7 +211,7 @@
       }
       if (status) {
         status.className = "form-status";
-        status.textContent = "This form isn't connected to an inbox yet — nothing has been sent. Use the email link below to reach us directly.";
+        status.textContent = "Nothing has been sent yet. Click the link below, then press Send in your email app to submit your enquiry.";
       }
       return;
     }

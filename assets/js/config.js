@@ -25,7 +25,7 @@ window.LR_CONFIG = {
   enquiryEndpoint: "",
 
   /* Shown as the human fallback while no endpoint is connected. */
-  contactEmail: "hello@landingrescue.co.uk",
+  contactEmail: "landingrescue.business@gmail.com",
 
   /* Stripe Payment Links — paste your live links here when ready. */
   stripeLinks: {

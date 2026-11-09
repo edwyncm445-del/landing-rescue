@@ -3,13 +3,13 @@
 There are now two independent working design studies:
 
 - `work/london-roofing/index.html` — trades and roofing, compact single-file layout.
-- `work/garden-maintenance-scotland/index.html` — lifestyle-led landscaping and garden maintenance, self-contained `index.html` with service-list shortcuts, an honest demonstration form and live links to the original business site.
+- `work/garden-maintenance-scotland/index.html` — a distinct, blue-and-yellow, service-first gardening design with a working job picker, practical service rows, genuine work-focused stock photography and an honest demo form.
 
 Both are **unofficial design concepts**, not approved client projects or a client's original work.
 
-Reuse the technical patterns (accessible navigation, accurate service content, responsive design and safe forms), not the visual arrangement. The garden redesign is deliberately straightforward and uses one self-contained HTML file.
+Reuse the technical patterns (accessible navigation, accurate service content, responsive design and safe forms), not the visual arrangement. The garden redesign is deliberately service-led instead of editorial, and uses one self-contained HTML file.
 
-## Reuse this design system, not the client's identity
+## Reuse the accessibility and interaction patterns, not a visual template
 
 For each new sector example:
 1. Research a real business, or create a clearly fictional brand.
@@ -48,7 +48,7 @@ For each new sector example:
 ## Sector-design contrast (November 2026)
 
 - Roofing: high-contrast, bold, quote-first concept.
-- Garden Maintenance Scotland: restrained local-business brochure with a compact wordmark, real stock photography, practical service list and straightforward enquiry journey. No hero stickers, floating cards or fabricated project portfolio.
+- Garden Maintenance Scotland: blue-and-yellow practical service interface with bespoke mowing-stripe icon, interactive "What needs doing?" chooser, real gardening stock photographs, large service rows and demo quote form. No fabricated customer stories or real project photos.
 
 The garden page now lives entirely in `work/garden-maintenance-scotland/index.html`. The older `lifestyle.css`, `lifestyle.js`, `style.css` and `script.js` variants were retired.
 

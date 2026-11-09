@@ -656,3 +656,8 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 .comparison-links a strong{font-family:var(--serif);font-weight:400;font-size:clamp(19px,2.8vw,30px);line-height:1.1}
 .comparison-links a span:last-child{font-size:12px;opacity:.74}
 @media(max-width:640px){.portfolio-comparison{padding:22px 17px}.comparison-links{grid-template-columns:1fr}.comparison-links a{padding:20px}}
+
+.comparison-links .comparison-before{display:flex;flex-direction:column;gap:15px;padding:24px;background:#f7f5f0;border:1px dashed #b8b8b1;color:#333}
+.comparison-before .comparison-eyebrow{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;opacity:.69}
+.comparison-before strong{font-family:var(--serif);font-weight:400;font-size:clamp(19px,2.8vw,30px);line-height:1.1}
+.comparison-before span:last-child{font-size:12px;opacity:.78;line-height:1.6}

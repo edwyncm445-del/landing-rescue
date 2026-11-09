@@ -664,22 +664,28 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 
 
 
-/* Garden Maintenance Scotland: truthful miniature of the simpler live demo */
-.project-media--garden{background:#f4f3ef}
-.garden-v3-thumb{height:100%;width:100%;display:flex;flex-direction:column;background:#f4f3ef;color:#212923;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
-.gv3-head{height:14%;flex:none;display:flex;gap:1.5%;align-items:center;border-bottom:1px solid #d5ddd2;padding:1.4% 3.2%}
-.gv3-logo{height:90%;aspect-ratio:1;display:grid;place-items:center;color:#fff;background:#304738;font-size:clamp(7px,1vw,14px);font-weight:900;letter-spacing:-.075em}
-.gv3-brand{font-size:clamp(6px,.78vw,12px);font-weight:900;line-height:1.04;white-space:nowrap}
-.gv3-brand small{display:block;font-size:.73em;letter-spacing:.13em;margin-top:2px}
-.gv3-navigation{font-size:clamp(4px,.6vw,9px);font-weight:700;white-space:nowrap;margin-left:auto}
-.gv3-cta{font-size:clamp(4px,.58vw,8px);font-weight:800;white-space:nowrap;color:#fff;background:#304738;padding:1.4% 1.5%}
-.gv3-kicker{height:8%;padding:0 3.2%;display:flex;justify-content:space-between;align-items:center;font-size:clamp(4px,.62vw,9px);font-weight:900;color:#617860;letter-spacing:.07em}
-.gv3-hero{height:30%;display:flex;align-items:center;justify-content:space-between;gap:4%;padding:0 3.2% 2%}
-.gv3-hero strong{font-size:clamp(19px,3.3vw,50px);line-height:.95;letter-spacing:-.064em;font-weight:900}
-.gv3-hero strong em{font-style:normal;color:#668064}
-.gv3-hero>span{max-width:26%;font-size:clamp(5px,.76vw,12px);line-height:1.5;color:#627360}
-.gv3-image{height:39%;width:93.6%;margin:0 auto;background:#93a991 url("https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&fit=crop&w=950&q=77") center/cover;position:relative}
-.gv3-image span{position:absolute;bottom:0;left:0;right:0;background:#203628b0;padding:1.5% 2.5%;color:#fff;font-size:clamp(4px,.6vw,9px);font-weight:800;letter-spacing:.08em}
-.gv3-services{height:9%;display:flex;align-items:center;justify-content:space-around;gap:1%;padding:0 3.2%;font-size:clamp(4px,.6vw,9px);color:#607460;font-weight:800;white-space:nowrap}
-@media(max-width:860px){.gv3-logo{font-size:clamp(7px,1.4vw,14px)}.gv3-brand{font-size:clamp(6px,1.2vw,12px)}.gv3-navigation{font-size:clamp(4px,.95vw,9px)}.gv3-hero strong{font-size:clamp(23px,5.7vw,49px)}.gv3-hero>span{font-size:clamp(5px,1.2vw,10px)}}
-@media(max-width:420px){.gv3-navigation{display:none}.gv3-cta{margin-left:auto}.gv3-hero strong{font-size:clamp(19px,7vw,28px)}.gv3-services{font-size:4.7px}}
+
+/* Garden Maintenance Scotland v4: bold service-first branded concept preview */
+.project-media--garden{background:#FFD658}
+.garden-v4-thumb{height:100%;width:100%;display:flex;flex-direction:column;background:#FFD658;color:#153540;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
+.gv4-nav{height:13%;flex:none;background:#fff;display:flex;align-items:center;gap:1.3%;padding:1.4% 2%;white-space:nowrap}
+.gv4-logo{width:6%;aspect-ratio:1;background:#153540;color:#FFD658;display:grid;place-items:center;font-size:clamp(9px,1.5vw,23px);font-weight:900}
+.gv4-nav>strong{font-size:clamp(5px,.7vw,11px);font-weight:900;line-height:1.05}
+.gv4-nav>strong small{display:block;font-size:.8em;letter-spacing:.1em}
+.gv4-nav>span:nth-of-type(2){margin-left:auto;font-size:clamp(4px,.6vw,8px);font-weight:800}
+.gv4-nav>b{background:#FFD658;font-size:clamp(4px,.58vw,8px);padding:1.3% 1.5%;font-weight:900}
+.gv4-stage{height:63%;display:grid;grid-template-columns:54% 46%;gap:0}
+.gv4-left{padding:8% 4.6% 4%;display:flex;flex-direction:column;align-items:flex-start}
+.gv4-left>small{font-size:clamp(5px,.63vw,10px);letter-spacing:.09em;font-weight:900;margin-bottom:8%}
+.gv4-left>strong{font-family:Impact,"Arial Black",Arial,sans-serif;font-size:clamp(29px,5.45vw,86px);line-height:.79;letter-spacing:-.025em;font-weight:900}
+.gv4-left>p{font-size:clamp(5px,.82vw,12px);line-height:1.3;max-width:80%;margin-top:7%}
+.gv4-left>span{font-size:clamp(4px,.65vw,9px);letter-spacing:.05em;font-weight:800;margin-top:auto}
+.gv4-finder{background:white;border:clamp(1px,.25vw,3px) solid #153540;box-shadow:clamp(3px,.7vw,10px) clamp(3px,.7vw,10px) 0 #153540;margin:5% 8% 8% 0;padding:5%;display:flex;flex-direction:column;min-width:0}
+.gv4-finder>b{font-family:Impact,"Arial Black",Arial,sans-serif;font-size:clamp(12px,2vw,27px);line-height:1;margin-bottom:8%;white-space:nowrap}
+.gv4-finder>div{font-size:clamp(4px,.55vw,8px);border-bottom:2px solid #153540;padding-bottom:8%;font-weight:900;white-space:nowrap}
+.gv4-finder>p{font-size:clamp(5px,.75vw,11px);padding:5% 0;border-bottom:1px solid #CAD5DA;font-weight:900;display:flex;justify-content:space-between}
+.gv4-finder>i{font-style:normal;background:#153540;color:#fff;font-size:clamp(4px,.65vw,9px);font-weight:900;padding:4.5%;margin-top:auto;text-align:center;white-space:nowrap}
+.gv4-photo{flex:1;min-height:0;background:#587965 url("https://images.pexels.com/photos/8174996/pexels-photo-8174996.jpeg?auto=compress&cs=tinysrgb&w=950") center 43%/cover;display:flex;align-items:flex-end}
+.gv4-photo>span{background:#153540CC;width:100%;color:white;padding:1.7% 3%;font-size:clamp(5px,.68vw,9px);font-weight:900;letter-spacing:.07em}
+@media(max-width:860px){.gv4-left>strong{font-size:clamp(34px,7vw,70px)}.gv4-finder>b{font-size:clamp(12px,2.8vw,24px)}.gv4-nav>strong{font-size:clamp(5px,1vw,10px)}.gv4-left>p{font-size:clamp(6px,1.2vw,10px)}}
+@media(max-width:420px){.gv4-nav>span:nth-of-type(2){display:none}.gv4-nav>b{margin-left:auto}.gv4-left>strong{font-size:clamp(26px,8.6vw,38px)}.gv4-finder>b{font-size:clamp(11px,3.4vw,18px)}.gv4-finder>p{font-size:clamp(5px,1.5vw,8px)}.gv4-left>small{font-size:5px}}

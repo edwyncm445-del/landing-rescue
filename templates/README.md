@@ -3,11 +3,11 @@
 There are now two independent working design studies:
 
 - `work/london-roofing/index.html` — trades and roofing, compact single-file layout.
-- `work/garden-maintenance-scotland/index.html` — lifestyle-led landscaping and garden maintenance, modular `lifestyle.css` and `lifestyle.js`, with photography-led services, gallery filters, lightbox, area shortcuts and an honest demonstration form.
+- `work/garden-maintenance-scotland/index.html` — lifestyle-led landscaping and garden maintenance, self-contained `index.html` with service-list shortcuts, an honest demonstration form and live links to the original business site.
 
 Both are **unofficial design concepts**, not approved client projects or a client's original work.
 
-Use the second project's separation of HTML/CSS/JS as the starting structure for future sector templates. Use a distinctive visual language for each sector rather than simply recolouring the exact same layout.
+Reuse the technical patterns (accessible navigation, accurate service content, responsive design and safe forms), not the visual arrangement. The garden redesign is deliberately straightforward and uses one self-contained HTML file.
 
 ## Reuse this design system, not the client's identity
 
@@ -47,6 +47,9 @@ For each new sector example:
 
 ## Sector-design contrast (November 2026)
 
-The garden concept has been rebuilt as a **light editorial lifestyle site**: centre-set typography, a full-width photo hero, cream/sage palette, rounded service cards, a stock-photo inspiration gallery and a softer quote journey. It is purposefully visually distinct from the charcoal/terracotta roofing concept.
+- Roofing: high-contrast, bold, quote-first concept.
+- Garden Maintenance Scotland: restrained local-business brochure with a compact wordmark, real stock photography, practical service list and straightforward enquiry journey. No hero stickers, floating cards or fabricated project portfolio.
 
-Reusable pattern: copy the *technical structure* (accessible mobile nav, relative CSS/JS, gallery controls, validated demo form) but choose new layout, typography, palette and visual hierarchy for each industry. The separate files are `index.html`, `lifestyle.css` and `lifestyle.js`.
+The garden page now lives entirely in `work/garden-maintenance-scotland/index.html`. The older `lifestyle.css`, `lifestyle.js`, `style.css` and `script.js` variants were retired.
+
+Use real project photography and an approved business logo when an actual customer supplies them. Until then, identify stock photos and speculative branding clearly.

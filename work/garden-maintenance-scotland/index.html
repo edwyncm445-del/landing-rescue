@@ -2,139 +2,333 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#20352b">
-  <meta name="robots" content="noindex,nofollow">
-  <title>Garden Maintenance Scotland — Independent redesign concept | Landing Rescue</title>
-  <meta name="description" content="An interactive, independent website redesign concept by Landing Rescue for Garden Maintenance Scotland. Not commissioned or approved by the business.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F4EE">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A complete interactive landscaping website redesign concept by Landing Rescue. This is not Garden Maintenance Scotland's official website.">
+  <title>Garden Maintenance Scotland — Independent Website Redesign | Landing Rescue</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./lifestyle.css">
+  <script src="./lifestyle.js" defer></script>
 </head>
 <body id="top">
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#content">Skip to content</a>
   <div class="concept-bar">
-    <span class="concept-dot"></span>
-    <span><strong>UNOFFICIAL DESIGN CONCEPT</strong> — created by Landing Rescue. Not affiliated with or approved by Garden Maintenance Scotland.</span>
-    <a href="../../index.html#work">Back to our portfolio <span aria-hidden="true">↗</span></a>
+    <span><strong>LANDING RESCUE DESIGN STUDY</strong> · Unofficial concept, not commissioned or approved by Garden Maintenance Scotland.</span>
+    <a href="../../index.html#work">Return to our portfolio ↗</a>
   </div>
-  <header class="site-header" id="site-header">
-    <div class="nav-container">
-      <a class="brand" href="#top" aria-label="Garden Maintenance Scotland design concept home">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><path d="M50 11c-23 1-39 11-37 30 1 11 13 16 24 10 15-9 16-28 13-40Z" stroke="currentColor" stroke-width="3"/><path d="M15 52c8-15 15-23 26-30" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M34 29 29 18M27 36l13 2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></span>
-        <span class="brand-wordmark">GARDEN <span>MAINTENANCE</span><small>SCOTLAND</small></span>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Garden Maintenance Scotland concept homepage">
+        <span class="brand-illustration" aria-hidden="true">
+          <svg viewBox="0 0 36 36" fill="none">
+            <path d="M28 7C14 8 7 15 9 24c2 8 12 9 17 2 4-6 4-13 2-19Z" stroke="currentColor" stroke-width="1.65"/>
+            <path d="M8 31c4-8 10-13 17-19M17 21l-4-6m6 4 6 2" stroke="currentColor" stroke-linecap="round" stroke-width="1.65"/>
+          </svg>
+        </span>
+        <span class="brand-text">Garden Maintenance <span>Scotland</span></span>
       </a>
-      <nav class="desktop-links" aria-label="Main navigation">
-        <a href="#services">Our services</a><a href="#approach">Our approach</a><a href="#areas">Where we work</a><a href="#questions">FAQs</a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#inspiration">Garden inspiration</a>
+        <a href="#design-study">Before &amp; after</a>
+        <a href="#areas">Areas</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <div class="header-actions">
-        <a class="header-phone" href="tel:+447368950608" aria-label="Call Garden Maintenance Scotland on 07368 950608">07368 950608</a>
-        <a class="button button-dark header-cta" href="#estimate">Get a free estimate <span aria-hidden="true">↗</span></a>
-        <button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="header-right">
+        <a class="btn btn-forest" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
+        <button class="hamburger" id="menu-button" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
       </div>
     </div>
-    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
-      <a href="#services">Our services</a><a href="#approach">Our approach</a><a href="#areas">Where we work</a><a href="#questions">FAQs</a><a href="#estimate">Get a free estimate ↗</a>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#services">Services</a>
+      <a href="#inspiration">Garden inspiration</a>
+      <a href="#design-study">Before &amp; after</a>
+      <a href="#areas">Areas we cover</a>
+      <a href="#contact">Get a free quote</a>
     </nav>
   </header>
 
-  <main id="main-content">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="eyebrow-line"></span> Landscaping & garden care · East Kilbride / Glasgow</div>
-          <h1 id="hero-title">Make room<br>for <em>the good</em><br>outdoors.</h1>
-          <p class="hero-description">Patios for gathering. Lawns for living. Beautiful gardens, thoughtfully maintained. From a small refresh to a complete outdoor transformation.</p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#estimate">Get a free estimate <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+  <main id="content">
+    <!-- Unlike the roofing design, this hero uses centre-set editorial typography and a full-width photograph. -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-top">
+        <p class="eyebrow">Landscaping · Gardens · Outdoor living</p>
+        <h1 id="hero-heading">Beautiful outdoor spaces,<br><em>designed for real life.</em></h1>
+        <p>Landscaping, garden makeovers, patios and outdoor upgrades around Glasgow, East Kilbride and surrounding areas. A more welcoming way to imagine what your garden could become.</p>
+      </div>
+      <div class="container-wide">
+        <div class="hero-stage">
+          <img src="https://images.unsplash.com/photo-1755816764913-bd1104a26d78?auto=format&amp;fit=crop&amp;w=2000&amp;q=85" alt="Genuine stock photo of a residential garden with a pergola, lawn and leafy trees" width="1600" height="960" fetchpriority="high">
+          <span class="hero-label">The good outdoors</span>
+          <div class="hero-floating">
+            <span>More than a nice view</span>
+            <p>A garden for long evenings, easy weekends and all the moments between.</p>
+            <div class="hero-buttons">
+              <a class="btn btn-forest" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
+              <a class="btn btn-outline" href="#inspiration">View our work <span class="btn-arrow" aria-hidden="true">↓</span></a>
+            </div>
           </div>
-          <div class="hero-location"><span class="location-icon" aria-hidden="true">⌖</span> Local to East Kilbride. Working across Glasgow & beyond.</div>
+          <p class="hero-caption">A little more room<br>to make memories.</p>
         </div>
-        <div class="hero-media">
-          <img src="https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" width="1200" height="900" alt="Real stock photograph of a landscaped garden with wooden decking, stone edging and leafy planting" fetchpriority="high">
-          <div class="hero-media-overlay"><span>Outdoor spaces<br>worth spending<br>time in.</span><span class="photo-note">Illustrative stock photography<br>FRAEM GmbH / Unsplash</span></div>
-          <span class="hero-image-mark" aria-hidden="true">01 — OUTDOOR LIVING</span>
-        </div>
-      </div>
-      <div class="hero-proof-wrap">
-        <div class="proof-bar container">
-          <div class="proof-item"><span class="proof-num">01</span><div><strong>Free consultations & quotes</strong><small>Start with an honest conversation</small></div></div>
-          <div class="proof-item"><span class="proof-num">02</span><div><strong>Hard & soft landscaping</strong><small>Built spaces and living gardens</small></div></div>
-          <div class="proof-item"><span class="proof-num">03</span><div><strong>Domestic & commercial</strong><small>Homes, gardens and managed sites</small></div></div>
+        <div class="post-hero">
+          <strong>Made to feel good. Built around real gardens.</strong>
+          <span>Design concept · Photographs are illustrative Unsplash stock, not the business's past jobs</span>
         </div>
       </div>
     </section>
 
-    <section class="section services-section" id="services" aria-labelledby="services-title">
+    <!-- Three genuine stock photography cards: not fake client projects. -->
+    <section class="section services" id="services" aria-labelledby="services-heading">
       <div class="container">
-        <div class="section-head"><div><p class="section-kicker">01 / Services</p><h2 id="services-title">Everything your<br><em>garden needs.</em></h2></div><p class="section-intro">From weekend-ready patios to regular upkeep, explore what a more usable garden could look like.</p></div>
-        <div class="filter-tabs" role="group" aria-label="Filter garden services">
-          <button class="filter-tab is-active" type="button" data-filter="all" aria-pressed="true">All services <span>06</span></button>
-          <button class="filter-tab" type="button" data-filter="build" aria-pressed="false">Build & transform</button>
-          <button class="filter-tab" type="button" data-filter="care" aria-pressed="false">Care & maintain</button>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">What we can help with</p>
+            <h2 id="services-heading">A space for <em>every season.</em></h2>
+          </div>
+          <p>Big ideas, small improvements, and all the lovely details that make outside feel like home.</p>
         </div>
-        <div class="service-grid" id="service-grid">
-          <article class="service-card service-card-photo" data-category="build">
-            <div class="service-image"><img loading="lazy" width="700" height="610" src="https://images.unsplash.com/photo-1761637822930-fb1c1a3df94d?auto=format&amp;fit=crop&amp;w=900&amp;q=84" alt="Real stock photo of a stone-paved landscaped garden with hedges and a garden wall"></div>
-            <div class="service-card-body"><span class="service-index">01 / Landscaping</span><h3>Garden transformations</h3><p>Fresh layouts, paths, raised beds and garden redesigns that make the most of your space.</p><button type="button" class="service-action" data-service="Garden landscaping">Explore an estimate <span aria-hidden="true">↗</span></button></div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-photo"><img src="https://images.unsplash.com/photo-1761637822930-fb1c1a3df94d?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a landscaped garden with a stone path, planting and boundary hedging"></div>
+            <div class="service-body">
+              <p class="eyebrow">01 / Landscape design</p>
+              <h3>Garden landscaping</h3>
+              <p>Complete garden transformations, thoughtful planting and practical layouts that suit how you actually live.</p>
+              <button class="card-link" type="button" data-service="Garden landscaping">Talk about landscaping <span aria-hidden="true">↗</span></button>
+            </div>
           </article>
-          <article class="service-card service-card-photo" data-category="build">
-            <div class="service-image"><img loading="lazy" width="700" height="610" src="https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&amp;fit=crop&amp;w=900&amp;q=82" alt="Real stock photo of quality timber decking surrounded by plants and natural stone"></div>
-            <div class="service-card-body"><span class="service-index">02 / Outdoor living</span><h3>Decking & patios</h3><p>Thoughtful spaces for entertaining, relaxing and enjoying more of the outdoors.</p><button type="button" class="service-action" data-service="Decking or patios">Explore an estimate <span aria-hidden="true">↗</span></button></div>
+          <article class="service-card">
+            <div class="service-photo"><img src="https://images.unsplash.com/photo-1755816764831-2803235f0099?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a covered patio and pergola with stone paving and an outdoor kitchen"></div>
+            <div class="service-body">
+              <p class="eyebrow">02 / Outdoor living</p>
+              <h3>Patios &amp; paving</h3>
+              <p>A place for a morning coffee, outdoor meals, or simply sitting back at the end of the day.</p>
+              <button class="card-link" type="button" data-service="Patios and paving">Talk about a patio <span aria-hidden="true">↗</span></button>
+            </div>
           </article>
-          <article class="service-card service-card-photo" data-category="care">
-            <div class="service-image"><img loading="lazy" width="700" height="610" src="https://images.unsplash.com/photo-1772364588940-cc5b73730450?auto=format&amp;fit=crop&amp;w=900&amp;q=84" alt="Real stock photo of a green lawn in front of a traditional stone house"></div>
-            <div class="service-card-body"><span class="service-index">03 / Garden care</span><h3>Lawns & garden maintenance</h3><p>Grass cutting, garden tidies and ongoing care to help your outdoor space thrive.</p><button type="button" class="service-action" data-service="Garden maintenance">Explore an estimate <span aria-hidden="true">↗</span></button></div>
+          <article class="service-card">
+            <div class="service-photo"><img src="https://images.unsplash.com/photo-1704457030816-6b9b08d1bb08?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a stone-paved driveway and lawn outside a modern timber house"></div>
+            <div class="service-body">
+              <p class="eyebrow">03 / First impressions</p>
+              <h3>Driveways &amp; kerbs</h3>
+              <p>Neater, more practical entrances with paving and finishing details that welcome you home.</p>
+              <button class="card-link" type="button" data-service="Driveways and kerbs">Talk about a driveway <span aria-hidden="true">↗</span></button>
+            </div>
           </article>
-          <article class="service-card service-card-compact" data-category="build"><div class="compact-symbol" aria-hidden="true">↗</div><span class="service-index">04 / Outdoor structures</span><h3>Fencing & repairs</h3><p>Privacy, boundaries and a smarter finish for your garden.</p><button type="button" class="service-action" data-service="Fencing">Enquire about fencing <span aria-hidden="true">↗</span></button></article>
-          <article class="service-card service-card-compact" data-category="care"><div class="compact-symbol" aria-hidden="true">✳</div><span class="service-index">05 / External care</span><h3>Pressure washing</h3><p>Give patios, driveways and hard surfaces a welcome refresh.</p><button type="button" class="service-action" data-service="Pressure washing">Enquire about cleaning <span aria-hidden="true">↗</span></button></article>
-          <article class="service-card service-card-compact" data-category="care"><div class="compact-symbol" aria-hidden="true">◌</div><span class="service-index">06 / Seasonal upkeep</span><h3>Hedges & seasonal tidy-ups</h3><p>The details that keep a garden looking its best, throughout the year.</p><button type="button" class="service-action" data-service="Garden tidy">Enquire about upkeep <span aria-hidden="true">↗</span></button></article>
         </div>
-        <p class="stock-note">All photographs are genuine third-party stock imagery used to demonstrate the design. They are not photographs of this business's completed projects.</p>
+        <div class="other-services">
+          <span>Also worth exploring</span>
+          <button type="button" data-service="Decking">Decking ↗</button>
+          <button type="button" data-service="Fencing">Fencing ↗</button>
+          <button type="button" data-service="Garden maintenance">Garden care ↗</button>
+          <button type="button" data-service="Pressure washing">Pressure washing ↗</button>
+        </div>
+        <p class="photo-usage">All photographs are genuine Unsplash stock images used as design inspiration. They do not show verified work by Garden Maintenance Scotland.</p>
       </div>
     </section>
 
-    <section class="vision-section" id="approach" aria-labelledby="vision-title">
-      <div class="vision-photo"><img src="https://images.unsplash.com/photo-1761637823276-7d714eb45cb1?auto=format&amp;fit=crop&amp;w=1500&amp;q=85" loading="lazy" width="1200" height="940" alt="Real stock photograph of landscaped stone steps framed by trees and planting"><span class="photo-credit">Stock image · Sergej Karpow / Unsplash</span></div>
-      <div class="vision-copy"><p class="section-kicker">02 / Our approach</p><h2 id="vision-title">Designed for<br><em>real life.</em></h2><p>The best garden isn't just beautiful in a photograph. It makes every day a little easier: somewhere to unwind, gather with friends, or simply enjoy the view.</p><div class="vision-points"><div><span>01</span>Tell us what you'd love to change</div><div><span>02</span>Explore ideas that work for your space</div><div><span>03</span>Agree the details before work begins</div></div><a class="button button-outline" href="#estimate">Start the conversation <span aria-hidden="true">↗</span></a></div>
-    </section>
-
-    <section class="areas-section section" id="areas" aria-labelledby="areas-title">
-      <div class="container areas-inner"><div><p class="section-kicker">03 / Where we work</p><h2 id="areas-title">Proudly local.<br><em>Growing places.</em></h2><p>Based in East Kilbride and serving Glasgow and surrounding areas, for both homeowners and commercial customers.</p></div><div class="area-select"><p class="eyebrow">Select your area to pre-fill the estimate form</p><div class="area-buttons"><button type="button" data-area="East Kilbride">East Kilbride ↗</button><button type="button" data-area="Glasgow">Glasgow ↗</button><button type="button" data-area="Clarkston">Clarkston ↗</button><button type="button" data-area="Other nearby area">Somewhere nearby ↗</button></div><small>Nearby areas are examples for the design; actual coverage must be confirmed with the company.</small></div></div>
-    </section>
-
-    <section class="section faq-section" id="questions" aria-labelledby="faq-title">
-      <div class="container"><div class="section-head"><div><p class="section-kicker">04 / Your questions</p><h2 id="faq-title">Good to know<br><em>before we begin.</em></h2></div><p class="section-intro">A little clarity goes a long way when you're planning work outdoors.</p></div>
-        <div class="faq-list">
-          <details><summary>Do you offer free estimates? <span aria-hidden="true">+</span></summary><p>The company's existing website advertises free consultations and quotations for garden design projects. Contact them directly for a quote for your particular work.</p></details>
-          <details><summary>Can you help with smaller gardening jobs? <span aria-hidden="true">+</span></summary><p>Yes. The company's current website says no job is too small and lists grass cutting, hedge care and one-off garden tidies alongside larger projects.</p></details>
-          <details><summary>Do you handle decking and patios? <span aria-hidden="true">+</span></summary><p>Yes. The business lists patios, timber and composite decking, fencing, turfing and other landscaping work among its services.</p></details>
-          <details><summary>Is this Garden Maintenance Scotland's official website? <span aria-hidden="true">+</span></summary><p>No. This is an independent, speculative redesign concept created by Landing Rescue, not commissioned or approved by Garden Maintenance Scotland. The genuine company's website is linked at the top and bottom.</p></details>
+    <!-- Honest web-design before / after: links to actual sites, not AI-fabricated screenshots. -->
+    <section class="comparison-section" id="design-study" aria-labelledby="comparison-heading">
+      <div class="container comparison-layout">
+        <div class="comparison-title">
+          <p class="eyebrow">The design story / before &amp; after</p>
+          <h2 id="comparison-heading">A clearer first <em>impression.</em></h2>
+          <p>Every good outdoor project begins with an idea. This redesign explores how warmer photography, simpler navigation and a more inviting mobile journey could help visitors take that first step. Explore the original and the concept yourself—no invented results.</p>
+        </div>
+        <div class="comparison-cards">
+          <article class="compare-card">
+            <span class="compare-kicker">01 / Before · original website</span>
+            <div class="compare-icon" aria-hidden="true">↖</div>
+            <h3>Where it started</h3>
+            <p>See the company's existing public website, with its own services, information and enquiry journey.</p>
+            <a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Explore the original <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="compare-card compare-card--after">
+            <span class="compare-kicker">02 / After · Landing Rescue concept</span>
+            <div class="compare-icon" aria-hidden="true">✳</div>
+            <h3>Room to imagine</h3>
+            <p>Large real photos, quieter layouts, direct service options and a simpler demonstration enquiry flow.</p>
+            <a href="#services">Explore our redesign <span aria-hidden="true">↓</span></a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="contact-section" id="estimate" aria-labelledby="estimate-title">
-      <div class="container contact-grid">
-        <div class="contact-copy"><p class="section-kicker">05 / Start something good</p><h2 id="estimate-title">Let's make<br>space for<br><em>outside.</em></h2><p>Choose a service and see how a simple, mobile-friendly enquiry would work. This concept does not submit real enquiries.</p><div class="contact-methods"><span>Contact the actual company</span><a href="tel:+447368950608">07368 950608 ↗</a><a href="mailto:info@gardenmaintenancescotland.co.uk">Email Garden Maintenance Scotland ↗</a></div></div>
-        <div class="form-card"><div class="form-card-top"><h3>Request an estimate</h3><span class="demo-pill">Interactive demo</span></div><p>Try the enquiry form with the pre-filled sample details below. Nothing is sent or saved.</p>
-          <form id="estimate-form">
-            <div class="form-row"><div class="form-field"><label for="demo-name">Name <span>*</span></label><input id="demo-name" autocomplete="off" required value="Alex Example" placeholder="Your name"></div><div class="form-field"><label for="demo-email">Email <span>*</span></label><input id="demo-email" type="email" autocomplete="off" required value="alex@example.com" placeholder="you@example.com"></div></div>
-            <div class="form-row"><div class="form-field"><label for="demo-area">Your area <span>*</span></label><input id="demo-area" required autocomplete="off" value="East Kilbride" placeholder="Town / area"></div><div class="form-field"><label for="demo-service">What can we help with? <span>*</span></label><select id="demo-service" required><option value="">Choose a service</option><option>Garden landscaping</option><option>Decking or patios</option><option>Garden maintenance</option><option>Fencing</option><option>Pressure washing</option><option>Garden tidy</option><option>Other / not sure</option></select></div></div>
-            <div class="form-field"><label for="demo-message">Tell us about your plans</label><textarea id="demo-message" rows="3" placeholder="e.g. We'd love a small seating area and easier-to-maintain planting."></textarea></div>
-            <button class="button button-dark form-submit" type="submit">Preview enquiry <span aria-hidden="true">↗</span></button>
-            <p class="form-small">Demonstration only. Please don't enter real personal information. A live version needs an approved, securely connected contact system.</p>
-            <div id="form-result" class="form-result" aria-live="polite" role="status" hidden></div>
+    <!-- A gallery of third-party stock photographs, explicitly not fabricated project history. -->
+    <section class="section inspiration" id="inspiration" aria-labelledby="inspiration-heading">
+      <div class="container">
+        <div class="gallery-heading">
+          <p class="eyebrow">The garden inspiration edit</p>
+          <h2 id="inspiration-heading">Imagine <em>the possibilities.</em></h2>
+          <p>A few inspiring directions for outdoor living. Every image is genuine stock photography, not a claimed client transformation.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter inspiration gallery">
+          <button type="button" class="is-active" data-gallery-filter="all" aria-pressed="true">All inspiration</button>
+          <button type="button" data-gallery-filter="living" aria-pressed="false">Outdoor living</button>
+          <button type="button" data-gallery-filter="gardens" aria-pressed="false">Garden details</button>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item large" data-category="living">
+            <button class="gallery-open" type="button" data-caption="Timber decking & outdoor living — illustrative stock photograph, not company work" aria-label="View a larger photograph of timber decking">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&amp;fit=crop&amp;w=1250&amp;q=84" width="900" height="1200" alt="Timber decking, stone edging and planting in a landscaped garden">
+              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Space to unwind <span aria-hidden="true">↗</span></strong></span>
+            </button>
+          </figure>
+          <figure class="gallery-item" data-category="gardens">
+            <button class="gallery-open" type="button" data-caption="Contemporary garden path and planting — illustrative stock photograph, not company work" aria-label="View a larger garden pathway photograph">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1761637823276-7d714eb45cb1?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Landscaped stone garden steps with greenery and planting">
+              <span class="photo-meta"><small>Garden details / stock image</small><strong>A softer journey <span aria-hidden="true">↗</span></strong></span>
+            </button>
+          </figure>
+          <figure class="gallery-item" data-category="gardens">
+            <button class="gallery-open" type="button" data-caption="Fresh lawns and green space — illustrative stock photograph, not company work" aria-label="View a larger photograph of a cottage and green lawn">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1772364588940-cc5b73730450?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Green lawn outside a charming stone cottage">
+              <span class="photo-meta"><small>Green spaces / stock image</small><strong>Easy green days <span aria-hidden="true">↗</span></strong></span>
+            </button>
+          </figure>
+          <figure class="gallery-item" data-category="living">
+            <button class="gallery-open" type="button" data-caption="Contemporary planted patio — illustrative stock photograph, not company work" aria-label="View a larger photograph of a planted modern patio">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1776186243408-3c0489503faa?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Modern patio with planting, stone steps and outdoor seating">
+              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Quiet corners <span aria-hidden="true">↗</span></strong></span>
+            </button>
+          </figure>
+          <figure class="gallery-item" data-category="living">
+            <button class="gallery-open" type="button" data-caption="Sunlit pergola garden — illustrative stock photograph, not company work" aria-label="View a larger photograph of a garden pergola">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1755816764913-bd1104a26d78?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Sunlit garden with a pergola, lawn and leafy trees">
+              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Room to gather <span aria-hidden="true">↗</span></strong></span>
+            </button>
+          </figure>
+        </div>
+        <p class="gallery-footnote">Inspiration only · We are not claiming these are completed projects or client photographs.</p>
+      </div>
+    </section>
+
+    <!-- These are website design benefits, not fabricated claims about the business. -->
+    <section class="why-section" id="why" aria-labelledby="why-heading">
+      <div class="container why-layout">
+        <div class="why-intro">
+          <p class="eyebrow">Behind this redesign</p>
+          <h2 id="why-heading">Thoughtful, <em>from the first click.</em></h2>
+          <p>This is what we want every visitor to feel: welcomed, informed, and confident enough to start the conversation. These are design priorities, not measured client outcomes.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card"><span class="number">01</span><h3>A warmer first impression</h3><p>An inviting layout that feels as considered as the garden itself.</p></article>
+          <article class="why-card"><span class="number">02</span><h3>Made for your phone</h3><p>Readable content, quick navigation and simple enquiries on smaller screens.</p></article>
+          <article class="why-card"><span class="number">03</span><h3>Pictures tell the story</h3><p>Photographs put outdoor possibilities at the centre of the experience.</p></article>
+          <article class="why-card"><span class="number">04</span><h3>Easy to take the next step</h3><p>Clear service choices, local context and a straightforward quote route.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="area-section" id="areas" aria-labelledby="areas-heading">
+      <div class="container area-layout">
+        <div>
+          <p class="eyebrow">Locally rooted</p>
+          <h2 id="areas-heading">Closer to <em>home.</em></h2>
+          <p class="area-copy">Garden Maintenance Scotland is based in East Kilbride and describes work around Glasgow and surrounding areas. Pick an area below to see how a quick enquiry could be tailored to you.</p>
+        </div>
+        <div class="area-panel">
+          <p>Where would your garden project be?</p>
+          <div class="area-tags" role="group" aria-label="Set area in the demonstration form">
+            <button type="button" data-area="Glasgow" aria-pressed="false">Glasgow ↗</button>
+            <button type="button" data-area="East Kilbride" aria-pressed="false">East Kilbride ↗</button>
+            <button type="button" data-area="Hamilton" aria-pressed="false">Hamilton ↗</button>
+            <button type="button" data-area="Bothwell" aria-pressed="false">Bothwell ↗</button>
+            <button type="button" data-area="Newton Mearns" aria-pressed="false">Newton Mearns ↗</button>
+            <button type="button" data-area="Clarkston" aria-pressed="false">Clarkston ↗</button>
+          </div>
+          <small>Area suggestions demonstrate the interface. The business must confirm whether your address is within its current service area.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">Let's get started</p>
+          <h2 id="contact-heading">Your dream garden <em>starts here.</em></h2>
+          <p>A good first conversation doesn't need to be complicated. Try the interactive quote form using example details—it demonstrates how an enquiry could work without sending anything.</p>
+          <div class="direct-contact">
+            <strong>Want a real quote from the company?</strong>
+            <a href="https://www.gardenmaintenancescotland.co.uk/contact/" target="_blank" rel="noopener noreferrer">Go to their official contact page ↗</a>
+            <a href="mailto:info@gardenmaintenancescotland.co.uk">Email the real business ↗</a>
+          </div>
+        </div>
+        <div class="enquiry-card">
+          <div class="enquiry-heading">
+            <h3>Tell us your ideas</h3>
+            <span class="demo-tag">Working demo</span>
+          </div>
+          <p class="enquiry-desc">No account needed. No details saved. Please use fictional contact details for this demonstration.</p>
+          <form id="enquiry-form">
+            <div class="field-row">
+              <div class="field"><label for="enquiry-name">Your name <span>*</span></label><input id="enquiry-name" name="name" placeholder="e.g. Alex Example" required autocomplete="off"></div>
+              <div class="field"><label for="enquiry-email">Email address <span>*</span></label><input id="enquiry-email" name="email" type="email" placeholder="alex@example.com" required autocomplete="off"></div>
+            </div>
+            <div class="field-row">
+              <div class="field"><label for="enquiry-phone">Phone number</label><input id="enquiry-phone" name="phone" type="tel" placeholder="Optional for demo" autocomplete="off"></div>
+              <div class="field"><label for="enquiry-area">Town or area <span>*</span></label><input id="enquiry-area" name="area" placeholder="e.g. Glasgow" required autocomplete="off"></div>
+            </div>
+            <div class="field">
+              <label for="enquiry-service">What can we help with? <span>*</span></label>
+              <select id="enquiry-service" name="service" required>
+                <option value="">Please choose a service</option>
+                <option>Garden landscaping</option>
+                <option>Patios and paving</option>
+                <option>Driveways and kerbs</option>
+                <option>Decking</option>
+                <option>Fencing</option>
+                <option>Garden maintenance</option>
+                <option>Pressure washing</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="field"><label for="enquiry-message">Tell us about your garden</label><textarea id="enquiry-message" name="message" rows="4" placeholder="What would you love to change?"></textarea></div>
+            <button class="btn btn-forest" type="submit">Preview quote enquiry <span class="btn-arrow" aria-hidden="true">↗</span></button>
+            <p class="form-note">Concept only: this form validates entries and displays a demo confirmation. It does not transmit or store your information.</p>
+            <div id="form-message" class="form-message" role="status" aria-live="polite" hidden></div>
           </form>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><div><a class="footer-brand" href="#top">GARDEN MAINTENANCE <span>SCOTLAND</span></a><p>This site is an <strong>unofficial, independent concept</strong> by <a href="../../index.html">Landing Rescue</a>. It is not the company's website. No real enquiries are collected here.</p><p class="image-credits">Photographs: <a href="https://unsplash.com/photos/a-wooden-deck-surrounded-by-rocks-and-trees-XetPrcHCzZg" target="_blank" rel="noopener">FRAEM GmbH</a>, <a href="https://unsplash.com/photos/modern-garden-pathway-with-stone-wall-and-hedges-taaMG-ioJU8" target="_blank" rel="noopener">Sergej Karpow</a>, <a href="https://unsplash.com/photos/charming-stone-cottage-with-ivy-and-green-lawn--W5K1ja1wdE" target="_blank" rel="noopener">Tanya Barrow</a>. Used as illustrative stock photos, not past work.</p></div><div class="footer-right"><a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Visit the real business website ↗</a><a href="../../index.html#work">Back to Landing Rescue ↗</a><span>© <span id="year">2026</span> Independent design concept</span></div></div></footer>
-  <a class="sticky-mobile-cta" href="#estimate">Get a free estimate <span aria-hidden="true">↗</span></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <p class="footer-brand">Garden Maintenance <span>SCOTLAND</span></p>
+          <p><strong>Independent design concept by Landing Rescue.</strong> Not the company's official website or a commissioned project. All photography is real Unsplash stock used for illustration, not verified completed work. No real enquiries are collected.</p>
+          <p>Stock photography featured: Kyle Ledyard, Yudiono Putranto, Sergej Karpow, FRAEM GmbH, Tanya Barrow and Caroline Badran via Unsplash. <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">Image licence</a>.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Explore services ↗</a>
+          <a href="#inspiration">Browse inspiration ↗</a>
+          <a href="#design-study">Before &amp; after ↗</a>
+          <a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Official business website ↗</a>
+          <a href="../../index.html#work">Landing Rescue portfolio ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Independent design concept · Landing Rescue</span>
+        <span>Built to explore design ideas, not to impersonate the business.</span>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-label="Larger garden inspiration photo">
+    <figure>
+      <img id="photo-dialog-image" src="data:," alt="">
+      <figcaption>
+        <p id="photo-dialog-caption"></p>
+        <button type="button" class="dialog-close">Close ✕</button>
+      </figcaption>
+    </figure>
+  </dialog>
+  <a class="btn btn-forest mobile-cta" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
 </body>
 </html>

@@ -619,3 +619,27 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Roofing concept thumbnail: an original miniature of the live demo */
+.project-media--roof{background:#f5f5ee}
+.roofing-thumb{height:100%;width:100%;display:flex;flex-direction:column;background:#f7f6f1;color:#181d1d;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
+.roofing-thumb-top{height:13%;padding:2% 3%;display:flex;align-items:center;gap:1%;border-bottom:1px solid #dddcd2;background:#f8f7f3;flex:none}
+.roofing-thumb-symbol{width:6%;height:100%;display:flex;align-items:center;justify-content:center;background:#181d1d;color:#d1fc4c;font-size:clamp(14px,2.5vw,32px);font-weight:700}
+.roofing-thumb-brand{font-size:clamp(7px,.92vw,13px);font-weight:900;line-height:1.1;letter-spacing:-.02em;min-width:20%}
+.roofing-thumb-brand small{display:block;font-size:.77em;letter-spacing:.08em}
+.roofing-thumb-nav{font-size:clamp(5px,.62vw,10px);font-weight:800;margin-left:auto;white-space:nowrap}
+.roofing-thumb-button{background:#161b1c;color:white;font-size:clamp(5px,.65vw,9px);font-weight:700;padding:1.6% 2%;margin-left:2%;white-space:nowrap}
+.roofing-thumb-stage{display:grid;grid-template-columns:54% 46%;flex:1;min-height:0}
+.roofing-thumb-copy{padding:8% 6.5%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:3.8%}
+.roofing-thumb-eyebrow{font-size:clamp(5px,.65vw,9px);font-weight:800;letter-spacing:.09em}
+.roofing-thumb-copy strong{font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(28px,4.4vw,72px);letter-spacing:-.015em;line-height:.88;font-weight:900}
+.roofing-thumb-stop{color:#b9dd3d}
+.roofing-thumb-lede{font-size:clamp(6px,.76vw,11px);line-height:1.3;color:#657067}
+.roofing-thumb-cta{font-size:clamp(6px,.66vw,10px);font-weight:900;background:#d1fc4c;padding:2.8% 5%}
+.roofing-thumb-photo{position:relative;background:#6f796a url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=75") center/cover;display:flex;align-items:flex-end;padding:6%}
+.roofing-thumb-photo:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#16201ca8)}
+.roofing-thumb-photo span{z-index:1;color:white;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(13px,2.2vw,30px);line-height:.96;letter-spacing:.01em}
+.roofing-thumb-bottom{min-height:10%;display:flex;justify-content:space-around;align-items:center;gap:1%;background:#d1fc4c;font-size:clamp(5px,.72vw,10px);font-weight:900;letter-spacing:.06em;padding:1% 3%}
+@media(max-width:860px){.roofing-thumb-copy strong{font-size:clamp(38px,6.5vw,80px)}.roofing-thumb-brand{font-size:clamp(8px,1.5vw,14px)}.roofing-thumb-nav{font-size:clamp(5px,1vw,9px)}.roofing-thumb-button{font-size:clamp(5px,1vw,9px)}.roofing-thumb-eyebrow{font-size:clamp(5px,1vw,10px)}.roofing-thumb-lede{font-size:clamp(7px,1.1vw,12px)}.roofing-thumb-cta{font-size:clamp(6px,1vw,10px)}.roofing-thumb-photo span{font-size:clamp(17px,4vw,30px)}}
+@media(max-width:420px){.roofing-thumb-nav{display:none}.roofing-thumb-button{margin-left:auto}.roofing-thumb-copy strong{font-size:clamp(28px,8.3vw,47px)}}

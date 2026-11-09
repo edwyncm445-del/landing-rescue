@@ -643,3 +643,16 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 .roofing-thumb-bottom{min-height:10%;display:flex;justify-content:space-around;align-items:center;gap:1%;background:#d47b59;font-size:clamp(5px,.72vw,10px);font-weight:900;letter-spacing:.06em;padding:1% 3%}
 @media(max-width:860px){.roofing-thumb-copy strong{font-size:clamp(38px,6.5vw,80px)}.roofing-thumb-brand{font-size:clamp(8px,1.5vw,14px)}.roofing-thumb-nav{font-size:clamp(5px,1vw,9px)}.roofing-thumb-button{font-size:clamp(5px,1vw,9px)}.roofing-thumb-eyebrow{font-size:clamp(5px,1vw,10px)}.roofing-thumb-lede{font-size:clamp(7px,1.1vw,12px)}.roofing-thumb-cta{font-size:clamp(6px,1vw,10px)}.roofing-thumb-photo span{font-size:clamp(17px,4vw,30px)}}
 @media(max-width:420px){.roofing-thumb-nav{display:none}.roofing-thumb-button{margin-left:auto}.roofing-thumb-copy strong{font-size:clamp(28px,8.3vw,47px)}}
+
+/* Genuine original-vs-concept comparison */
+.portfolio-comparison{margin:12px 0 42px;padding:34px;background:#f1f0e9;border:1px solid var(--border)}
+.comparison-intro h3{font-family:var(--serif);font-size:clamp(27px,3.3vw,42px);font-weight:400;line-height:1.07;margin:9px 0 13px}
+.comparison-intro p:last-child{font-size:14px;max-width:730px;color:var(--text-muted);line-height:1.65}
+.comparison-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.comparison-links a{display:flex;flex-direction:column;gap:15px;padding:24px;background:#fff;border:1px solid #d4d5cf;transition:transform .2s,border-color .2s}
+.comparison-links a:hover{transform:translateY(-3px);border-color:#a77a60}
+.comparison-links a:last-child{background:#1c2226;color:#f7f6f2}
+.comparison-links a .comparison-eyebrow{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;opacity:.69}
+.comparison-links a strong{font-family:var(--serif);font-weight:400;font-size:clamp(19px,2.8vw,30px);line-height:1.1}
+.comparison-links a span:last-child{font-size:12px;opacity:.74}
+@media(max-width:640px){.portfolio-comparison{padding:22px 17px}.comparison-links{grid-template-columns:1fr}.comparison-links a{padding:20px}}

@@ -3,7 +3,7 @@
 There are now two independent working design studies:
 
 - `work/london-roofing/index.html` — trades and roofing, compact single-file layout.
-- `work/garden-maintenance-scotland/index.html` — landscaping and garden maintenance, modular `style.css` and `script.js`, with filter controls and an honest demonstration form.
+- `work/garden-maintenance-scotland/index.html` — lifestyle-led landscaping and garden maintenance, modular `lifestyle.css` and `lifestyle.js`, with photography-led services, gallery filters, lightbox, area shortcuts and an honest demonstration form.
 
 Both are **unofficial design concepts**, not approved client projects or a client's original work.
 
@@ -44,3 +44,9 @@ For each new sector example:
 - Do not fabricate original screenshots or conversion results.
 - If you later capture genuine screenshots, label the date of capture and website URL for each.
 - Identify stock photography and separate it from client project imagery.
+
+## Sector-design contrast (November 2026)
+
+The garden concept has been rebuilt as a **light editorial lifestyle site**: centre-set typography, a full-width photo hero, cream/sage palette, rounded service cards, a stock-photo inspiration gallery and a softer quote journey. It is purposefully visually distinct from the charcoal/terracotta roofing concept.
+
+Reusable pattern: copy the *technical structure* (accessible mobile nav, relative CSS/JS, gallery controls, validated demo form) but choose new layout, typography, palette and visual hierarchy for each industry. The separate files are `index.html`, `lifestyle.css` and `lifestyle.js`.

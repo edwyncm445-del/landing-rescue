@@ -1,7 +1,13 @@
 # Landing Rescue — future sector template system
 
-The current live example is at `work/london-roofing/index.html`.
-It is an **unofficial design concept**, not an approved client project or a client's original work.
+There are now two independent working design studies:
+
+- `work/london-roofing/index.html` — trades and roofing, compact single-file layout.
+- `work/garden-maintenance-scotland/index.html` — landscaping and garden maintenance, modular `style.css` and `script.js`, with filter controls and an honest demonstration form.
+
+Both are **unofficial design concepts**, not approved client projects or a client's original work.
+
+Use the second project's separation of HTML/CSS/JS as the starting structure for future sector templates. Use a distinctive visual language for each sector rather than simply recolouring the exact same layout.
 
 ## Reuse this design system, not the client's identity
 
@@ -30,3 +36,11 @@ For each new sector example:
 - Treat external stock photos as illustrative unless the business provides licensed job photos.
 - The roofing example intentionally **does not send** form submissions. It validates inputs and shows an accurate preview confirmation.
 - Keep the public portfolio small: show only your strongest functioning examples.
+
+## Before / after portfolio presentations
+
+- Use a real, functioning original-site link for the *before* item.
+- Use the actual interactive concept URL for the *after* item.
+- Do not fabricate original screenshots or conversion results.
+- If you later capture genuine screenshots, label the date of capture and website URL for each.
+- Identify stock photography and separate it from client project imagery.

@@ -664,24 +664,22 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 
 
 
-/* Gardening concept v2 — editorial mini-preview of the real interactive site */
-.project-media--garden{background:#F7F4EE}
-.garden-v2-thumb{height:100%;width:100%;display:flex;flex-direction:column;overflow:hidden;color:#1F241F;background:#F7F4EE;font-family:Arial,Helvetica,sans-serif}
-.garden-v2-minihead{height:14%;padding:1.5% 3%;display:flex;align-items:center;gap:2%;background:#F7F4EE;flex:none;border-bottom:1px solid #e4e7dd}
-.garden-v2-logo{font-family:Georgia,serif;font-size:clamp(7px,1.05vw,15px);line-height:1;font-weight:bold;white-space:nowrap}
-.garden-v2-logo small{display:block;margin-top:2px;font-family:Arial,sans-serif;font-size:.55em;letter-spacing:.2em}
-.garden-v2-menu{margin-left:auto;font-size:clamp(5px,.64vw,9px);font-weight:800;white-space:nowrap}
-.garden-v2-headerbtn{background:#2F4938;border-radius:50px;color:#fff;font-size:clamp(5px,.61vw,9px);padding:1.4% 2%;font-weight:800;white-space:nowrap}
-.garden-v2-intro{height:27%;flex:none;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:6%;padding:1% 5% 0}
-.garden-v2-intro>span{font-size:clamp(5px,.68vw,9px);letter-spacing:.12em;font-weight:800;color:#87957A}
-.garden-v2-intro>strong{font-family:Georgia,serif;font-weight:400;letter-spacing:-.035em;font-size:clamp(16px,2.65vw,40px);line-height:1.03}
-.garden-v2-intro em{font-weight:400;color:#87957A}
-.garden-v2-photo{width:96%;align-self:center;flex:1;min-height:0;position:relative;background:#8ea78f url("https://images.unsplash.com/photo-1755816764913-bd1104a26d78?auto=format&fit=crop&w=1100&q=76") center/cover;border-radius:clamp(5px,.8vw,14px);overflow:hidden}
-.garden-v2-photo::after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,#1d33277a)}
-.garden-v2-overlay{position:absolute;z-index:1;left:4%;bottom:7%;background:#F7F4EE;color:#2F4938;border-radius:clamp(4px,.7vw,12px);padding:2% 3%;width:50%;display:flex;flex-direction:column;gap:6px}
-.garden-v2-overlay>span:first-child{font-size:clamp(4px,.53vw,7px);font-weight:800;letter-spacing:.09em}
-.garden-v2-overlay strong{font-family:Georgia,serif;font-weight:400;font-size:clamp(9px,1.32vw,20px);line-height:1.06}
-.garden-v2-cta{font-size:clamp(4px,.58vw,8px);padding:3% 5%;background:#2F4938;color:white;width:max-content;border-radius:60px;font-weight:800}
-.garden-v2-foot{min-height:11%;display:flex;justify-content:space-around;align-items:center;gap:2%;font-size:clamp(5px,.7vw,10px);font-weight:800;letter-spacing:.03em;padding:1.5%}
-@media(max-width:860px){.garden-v2-logo{font-size:clamp(8px,1.5vw,15px)}.garden-v2-menu{font-size:clamp(5px,1vw,9px)}.garden-v2-intro>strong{font-size:clamp(21px,4.5vw,43px)}.garden-v2-overlay strong{font-size:clamp(10px,2.1vw,20px)}.garden-v2-cta{font-size:clamp(5px,1vw,8px)}}
-@media(max-width:420px){.garden-v2-menu{display:none}.garden-v2-headerbtn{margin-left:auto}.garden-v2-intro>strong{font-size:clamp(16px,6vw,25px)}.garden-v2-overlay strong{font-size:clamp(9px,2.9vw,16px)}.garden-v2-foot{font-size:4.8px}}
+/* Garden Maintenance Scotland: truthful miniature of the simpler live demo */
+.project-media--garden{background:#f4f3ef}
+.garden-v3-thumb{height:100%;width:100%;display:flex;flex-direction:column;background:#f4f3ef;color:#212923;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
+.gv3-head{height:14%;flex:none;display:flex;gap:1.5%;align-items:center;border-bottom:1px solid #d5ddd2;padding:1.4% 3.2%}
+.gv3-logo{height:90%;aspect-ratio:1;display:grid;place-items:center;color:#fff;background:#304738;font-size:clamp(7px,1vw,14px);font-weight:900;letter-spacing:-.075em}
+.gv3-brand{font-size:clamp(6px,.78vw,12px);font-weight:900;line-height:1.04;white-space:nowrap}
+.gv3-brand small{display:block;font-size:.73em;letter-spacing:.13em;margin-top:2px}
+.gv3-navigation{font-size:clamp(4px,.6vw,9px);font-weight:700;white-space:nowrap;margin-left:auto}
+.gv3-cta{font-size:clamp(4px,.58vw,8px);font-weight:800;white-space:nowrap;color:#fff;background:#304738;padding:1.4% 1.5%}
+.gv3-kicker{height:8%;padding:0 3.2%;display:flex;justify-content:space-between;align-items:center;font-size:clamp(4px,.62vw,9px);font-weight:900;color:#617860;letter-spacing:.07em}
+.gv3-hero{height:30%;display:flex;align-items:center;justify-content:space-between;gap:4%;padding:0 3.2% 2%}
+.gv3-hero strong{font-size:clamp(19px,3.3vw,50px);line-height:.95;letter-spacing:-.064em;font-weight:900}
+.gv3-hero strong em{font-style:normal;color:#668064}
+.gv3-hero>span{max-width:26%;font-size:clamp(5px,.76vw,12px);line-height:1.5;color:#627360}
+.gv3-image{height:39%;width:93.6%;margin:0 auto;background:#93a991 url("https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&fit=crop&w=950&q=77") center/cover;position:relative}
+.gv3-image span{position:absolute;bottom:0;left:0;right:0;background:#203628b0;padding:1.5% 2.5%;color:#fff;font-size:clamp(4px,.6vw,9px);font-weight:800;letter-spacing:.08em}
+.gv3-services{height:9%;display:flex;align-items:center;justify-content:space-around;gap:1%;padding:0 3.2%;font-size:clamp(4px,.6vw,9px);color:#607460;font-weight:800;white-space:nowrap}
+@media(max-width:860px){.gv3-logo{font-size:clamp(7px,1.4vw,14px)}.gv3-brand{font-size:clamp(6px,1.2vw,12px)}.gv3-navigation{font-size:clamp(4px,.95vw,9px)}.gv3-hero strong{font-size:clamp(23px,5.7vw,49px)}.gv3-hero>span{font-size:clamp(5px,1.2vw,10px)}}
+@media(max-width:420px){.gv3-navigation{display:none}.gv3-cta{margin-left:auto}.gv3-hero strong{font-size:clamp(19px,7vw,28px)}.gv3-services{font-size:4.7px}}

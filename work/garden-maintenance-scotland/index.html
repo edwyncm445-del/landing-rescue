@@ -2,333 +2,97 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#F7F4EE">
-  <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="A complete interactive landscaping website redesign concept by Landing Rescue. This is not Garden Maintenance Scotland's official website.">
-  <title>Garden Maintenance Scotland — Independent Website Redesign | Landing Rescue</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./lifestyle.css">
-  <script src="./lifestyle.js" defer></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f3ef">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Garden Maintenance Scotland — independent website concept</title>
+  <meta name="description" content="An independent, working website redesign concept for Garden Maintenance Scotland, by Landing Rescue. Not the official business website.">
+  <style>
+:root{--ink:#212923;--pine:#304738;--paper:#f4f3ef;--white:#fff;--line:#d4d9d0;--muted:#616b61;--sage:#e1e7de;--sand:#e9e5dc;--font:Arial,"Helvetica Neue",Helvetica,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.58 var(--font);-webkit-font-smoothing:antialiased}img{display:block;width:100%}h1,h2,h3,p,figure{margin:0}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}:focus-visible{outline:3px solid #698b6e;outline-offset:4px}.page-shell{max-width:1340px;width:calc(100% - 110px);margin:auto}.skip-link{position:absolute;top:-80px;left:12px;background:#fff;color:#222;padding:10px;z-index:300}.skip-link:focus{top:7px}.concept-notice{background:#e5e9e2;display:flex;justify-content:space-between;align-items:center;padding:8px max(20px,calc((100vw - 1340px)/2));min-height:34px;color:#475a49;font-size:10px;font-weight:700;letter-spacing:.035em;gap:20px}.concept-notice a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.notice-sep{margin:0 8px;color:#9aa99b}.header{position:sticky;top:0;background:rgba(244,243,239,.97);border-bottom:1px solid #dce0d9;backdrop-filter:blur(10px);z-index:80}.header-inner{height:88px;display:flex;align-items:center;justify-content:space-between;gap:35px}.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}.brand-block{width:48px;height:48px;display:grid;place-items:center;background:var(--pine);color:#fff;font-size:14px;font-weight:900;letter-spacing:-.09em}.brand-wordmark{display:flex;flex-direction:column;line-height:1.2}.brand-wordmark strong{font-size:13px;font-weight:800;letter-spacing:.01em;white-space:nowrap}.brand-wordmark small{font-size:10px;font-weight:800;letter-spacing:.2em;margin-top:3px}.header-nav{display:flex;gap:clamp(18px,2.5vw,38px);align-items:center}.header-nav a{font-size:12px;font-weight:700;white-space:nowrap}.header-nav a:hover{color:#6d836c}.header-right{display:flex;align-items:center;gap:19px}.phone-link{font-size:12px;font-weight:800;white-space:nowrap}.btn{min-height:51px;padding:12px 19px;background:transparent;border:1px solid transparent;display:inline-flex;justify-content:space-between;align-items:center;gap:25px;font-size:12px;font-weight:800;letter-spacing:.005em;transition:background .18s,color .18s}.btn-solid{background:var(--pine);color:#fff}.btn-solid:hover{background:#49624e}.btn span{font-size:19px;line-height:1}.header-quote{min-height:43px;font-size:11px;padding:10px 16px;white-space:nowrap}.underlink{display:inline-flex;align-items:center;gap:12px;border-bottom:1px solid #a3aea0;padding-bottom:3px;font-size:12px;font-weight:800}.underlink:hover{border-color:var(--pine)}.underlink span{font-size:18px;line-height:1}.menu-button{display:none;width:44px;height:44px;flex-direction:column;align-items:center;justify-content:center;gap:5px;border:1px solid #cdd5c9;background:transparent}.menu-button span{width:20px;height:2px;background:var(--pine)}.mobile-menu{display:none}.mobile-menu[hidden]{display:none}
+.hero{padding-top:48px}.hero-meta{display:flex;justify-content:space-between;gap:25px;color:#667666;font-size:10px;font-weight:800;letter-spacing:.15em}.hero-text-row{display:grid;grid-template-columns:1.25fr .75fr;gap:8vw;align-items:end;padding:42px 0 49px}.hero h1{font-size:clamp(64px,6.5vw,100px);letter-spacing:-.075em;font-weight:800;line-height:.96;max-width:800px}.hero h1 span{color:#668064}.hero-side{padding-bottom:3px}.hero-side>p{color:#5b695d;font-size:14px;line-height:1.85;max-width:390px;margin:0 0 25px}.hero-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.hero-image{position:relative;height:clamp(360px,38vw,535px);overflow:hidden;background:#899c87}.hero-image img{width:100%;height:100%;object-fit:cover;object-position:center 50%}.hero-image figcaption{position:absolute;bottom:0;left:0;right:0;background:rgba(25,43,31,.75);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:15px;padding:12px 21px;font-size:10px;letter-spacing:.075em;font-weight:700}.hero-image figcaption span:last-child{font-weight:400;letter-spacing:0;opacity:.95}.service-strip{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}.service-strip span{font-size:10px;letter-spacing:.09em;font-weight:800;padding:22px 18px 22px 0;color:#5b6f5b;border-right:1px solid var(--line);text-align:center}.service-strip span:first-child{text-align:left}.service-strip span:last-child{border:0}
+.section-label{font-size:10px;font-weight:800;letter-spacing:.14em;color:#647d64;display:block;margin-bottom:25px}.services-section{padding:121px 0 128px}.services-layout{display:grid;grid-template-columns:.75fr 1.25fr;gap:11vw}.section-aside h2,.work-head h2,.about-section h2,.contact-intro h2,.compare-banner h2{font-weight:800;font-size:clamp(39px,4vw,63px);line-height:1.03;letter-spacing:-.06em}.section-aside>p{font-size:14px;color:#657065;max-width:330px;line-height:1.8;margin:26px 0}.section-aside>.aside-fact{color:#6a8169;font-size:11px;text-transform:uppercase;letter-spacing:.06em;font-weight:800;margin-top:45px}.service-list{border-top:1px solid #bac7b8}.service-row{width:100%;display:flex;align-items:center;gap:25px;padding:23px 5px 24px 0;border:0;border-bottom:1px solid #bac7b8;background:none;text-align:left;color:inherit;transition:padding .18s,background .18s}.service-row:hover{padding-left:12px;background:#e9eee5}.row-index{width:32px;font-size:11px;color:#778775;font-weight:800;flex:none}.row-copy{flex:1;min-width:0}.row-copy strong{display:block;font-size:clamp(18px,2.1vw,28px);font-weight:700;letter-spacing:-.03em;line-height:1.2}.row-copy small{display:block;color:#6d786d;font-size:12px;line-height:1.5;margin-top:6px}.row-arrow{font-size:23px;color:#44674a;flex:none}
+.work-section{padding:0 0 110px}.work-head{display:flex;justify-content:space-between;align-items:end;gap:50px;margin-bottom:43px}.work-head h2{font-size:clamp(40px,4.6vw,69px)}.work-head>p{font-size:14px;color:#637163;max-width:355px;line-height:1.8;margin:0 0 4px}.work-grid{display:grid;grid-template-columns:1.27fr .73fr;gap:22px;align-items:start}.work-picture{overflow:hidden;background:#bbcbb9;position:relative}.work-picture.large{height:clamp(335px,40vw,565px)}.work-picture.small{height:clamp(260px,31vw,440px);margin-top:100px}.work-picture img{width:100%;height:100%;object-fit:cover}.work-picture figcaption{background:#e7e9e1;padding:17px 19px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.07em;font-weight:800;color:#526a53}.work-picture figcaption span{color:#859383}.image-disclaimer{margin-top:20px;color:#788378;font-size:11px;line-height:1.6}.about-section{background:#dde5da;padding:105px 0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:10vw}.about-copy>p{font-size:15px;color:#4e6552;max-width:550px;line-height:1.8;margin-bottom:18px}.about-copy .underlink{margin-top:13px}.small-source{display:block;font-size:10px;color:#728574;margin-top:19px}
+.contact-section{padding:118px 0 125px}.contact-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:9vw}.contact-intro h2{font-size:clamp(44px,4.6vw,72px)}.contact-intro>p{font-size:14px;line-height:1.8;max-width:365px;color:#647164;margin-top:25px}.contact-direct{display:flex;flex-direction:column;gap:9px;margin-top:52px;border-top:1px solid #c8d0c6;padding-top:25px}.contact-direct strong{font-size:10px;letter-spacing:.14em;color:#677d68}.contact-direct a{font-size:13px;font-weight:700;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:3px}.form-wrap{background:#fff;border:1px solid #dfe4db;padding:37px 38px 32px;box-shadow:0 18px 40px #20312608}.form-header{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:27px}.form-header h3{font-size:29px;letter-spacing:-.045em}.form-header span{font-size:10px;letter-spacing:.08em;font-weight:800;background:#e8efe5;color:#4b654d;padding:7px 10px}.fieldline{margin-bottom:17px}.fieldline label{display:block;margin-bottom:8px;font-size:11px;font-weight:800}.fieldline label span{color:#a55f49}.fieldline input,.fieldline select,.fieldline textarea{display:block;width:100%;background:#f9faf7;border:1px solid #cdd8c9;padding:13px 14px;font-size:13px;color:#253527;min-height:47px;outline:0;border-radius:0}.fieldline input:focus,.fieldline select:focus,.fieldline textarea:focus{border-color:#6d8a70;box-shadow:0 0 0 2px #d5e3d1}.fieldline textarea{resize:vertical;min-height:104px}.fieldline ::placeholder{color:#a2aaa0}.two-fields{display:grid;grid-template-columns:1fr 1fr;gap:17px}.submit-btn{width:100%;margin-top:5px}.form-honesty{margin-top:15px;color:#7b897c;font-size:10px;line-height:1.6}.form-result{background:#eaf0e8;border-left:3px solid #577b5d;font-size:12px;line-height:1.7;padding:16px;margin-top:16px}.form-result[hidden]{display:none}
+.compare-banner{background:#e8e5dc;padding:65px 0}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:10vw;align-items:center}.compare-banner h2{font-size:clamp(36px,3.5vw,54px)}.compare-banner p{font-size:12px;color:#687369;line-height:1.7;max-width:440px;margin-top:16px}.compare-links{border-top:1px solid #bac4b6}.compare-links a{font-size:13px;font-weight:800;padding:18px 0;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #bac4b6;gap:15px}.compare-links a:hover{color:#6b896d}.footer{background:#25392b;color:#edf2e9;padding:55px 0 25px}.footer-top{display:flex;justify-content:space-between;gap:40px;padding-bottom:50px}.footer-brand{font-size:15px;line-height:1.15;font-weight:800;letter-spacing:.04em}.footer-top p{font-size:11px;color:#bed0bf;line-height:1.7;max-width:650px;margin-top:20px}.footer-top p a{text-decoration:underline}.footer-details{display:flex;flex-direction:column;align-items:flex-start;gap:12px;font-size:12px;font-weight:700;white-space:nowrap}.footer-details a:hover{text-decoration:underline}.footer-bottom{padding-top:22px;border-top:1px solid #526456;display:flex;justify-content:space-between;gap:20px;color:#afc2af;font-size:10px}.mobile-cta{display:none}
+@media(max-width:1150px){.page-shell{width:calc(100% - 70px)}.header-inner{gap:22px}.header-nav{gap:16px}.phone-link{display:none}.hero h1{font-size:clamp(60px,6.3vw,83px)}.hero-text-row{gap:5vw}.services-layout,.contact-layout{gap:6vw}.service-row{padding-block:21px}}
+@media(max-width:850px){.page-shell{width:calc(100% - 44px)}.header-nav{display:none}.menu-button{display:flex}.mobile-menu:not([hidden]){display:flex;position:absolute;left:0;right:0;top:88px;background:var(--paper);padding:12px 22px 24px;flex-direction:column;box-shadow:0 24px 40px #0e211226}.mobile-menu a{font-size:14px;font-weight:700;padding:12px 0;border-bottom:1px solid #d5ded2}.hero-text-row{grid-template-columns:1fr;gap:22px}.hero h1{font-size:clamp(59px,9vw,86px)}.hero-side{display:flex;align-items:end;gap:25px;justify-content:space-between}.hero-side>p{margin-bottom:0;max-width:420px}.hero-actions{min-width:220px}.services-layout,.contact-layout{grid-template-columns:1fr;gap:40px}.section-aside>p{max-width:600px}.section-aside>.aside-fact{margin-top:24px}.about-grid{gap:5vw}.work-picture.small{margin-top:75px}.contact-intro>p{max-width:600px}.contact-direct{margin-top:27px}}
+@media(max-width:650px){html{scroll-padding-top:77px}.page-shell{width:calc(100% - 32px)}.concept-notice{font-size:9px;padding:7px 14px;gap:8px}.concept-notice a{white-space:normal;min-width:83px;text-align:right}.header-inner{height:72px}.brand-block{height:42px;width:42px}.brand-wordmark strong{font-size:11px}.brand-wordmark small{font-size:9px}.header-quote{display:none}.mobile-menu:not([hidden]){top:72px}.hero{padding-top:30px}.hero-meta{font-size:8.5px;gap:9px}.hero-meta span:last-child{text-align:right}.hero-text-row{padding:34px 0 37px}.hero h1{font-size:clamp(44px,11.5vw,72px);line-height:1.02;letter-spacing:-.064em}.hero-side{display:block}.hero-side>p{font-size:13px;margin-bottom:22px}.hero-actions{gap:17px}.hero-image{height:385px}.hero-image img{object-position:center}.hero-image figcaption{align-items:flex-start;flex-direction:column;gap:5px;font-size:9px;padding:11px}.service-strip{grid-template-columns:1fr 1fr}.service-strip span{padding:16px 6px;text-align:left;font-size:9px}.service-strip span:nth-child(2){border-right:0}.service-strip span:nth-child(-n+2){border-bottom:1px solid var(--line)}.services-section{padding:77px 0 80px}.section-aside h2,.work-head h2,.about-section h2,.contact-intro h2{font-size:clamp(42px,10vw,62px)}.services-layout{gap:26px}.section-label{margin-bottom:20px}.service-row{gap:10px;padding:21px 1px}.row-index{width:24px;font-size:10px}.row-copy strong{font-size:21px}.row-copy small{font-size:11px}.row-arrow{font-size:20px}.work-section{padding-bottom:80px}.work-head{display:block;margin-bottom:30px}.work-head>p{margin-top:18px;font-size:13px}.work-grid{grid-template-columns:1fr;gap:18px}.work-picture.large,.work-picture.small{height:320px;margin:0}.about-section{padding:75px 0}.about-grid{grid-template-columns:1fr;gap:26px}.about-copy>p{font-size:14px}.contact-section{padding:76px 0 83px}.contact-layout{gap:26px}.form-wrap{padding:26px 18px}.form-header h3{font-size:25px}.two-fields{grid-template-columns:1fr;gap:0}.compare-banner{padding:60px 0}.compare-grid{grid-template-columns:1fr;gap:30px}.footer{padding:45px 0 85px}.footer-top,.footer-bottom{flex-direction:column;gap:24px}.footer-details{gap:9px}.mobile-cta{display:flex;align-items:center;justify-content:center;gap:17px;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:90;background:var(--pine);color:#fff;padding:11px 20px;white-space:nowrap;box-shadow:0 10px 25px #1f30234d;font-size:12px;font-weight:800}.mobile-cta span{font-size:19px}}
+@media(max-width:390px){.hero h1{font-size:42px}.hero-image{height:320px}.hero-meta{font-size:8px}.brand-wordmark strong{font-size:10px}.service-strip span{font-size:8px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+</style>
+  
 </head>
 <body id="top">
-  <a class="skip-link" href="#content">Skip to content</a>
-  <div class="concept-bar">
-    <span><strong>LANDING RESCUE DESIGN STUDY</strong> · Unofficial concept, not commissioned or approved by Garden Maintenance Scotland.</span>
-    <a href="../../index.html#work">Return to our portfolio ↗</a>
-  </div>
-
-  <header class="site-header">
-    <div class="container nav-inner">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="concept-notice"><span>INDEPENDENT REDESIGN CONCEPT <span class="notice-sep">/</span> Not the company's official website</span><a href="../../index.html#work">Back to Landing Rescue <span aria-hidden="true">↗</span></a></div>
+  <header class="header">
+    <div class="header-inner page-shell">
       <a class="brand" href="#top" aria-label="Garden Maintenance Scotland concept homepage">
-        <span class="brand-illustration" aria-hidden="true">
-          <svg viewBox="0 0 36 36" fill="none">
-            <path d="M28 7C14 8 7 15 9 24c2 8 12 9 17 2 4-6 4-13 2-19Z" stroke="currentColor" stroke-width="1.65"/>
-            <path d="M8 31c4-8 10-13 17-19M17 21l-4-6m6 4 6 2" stroke="currentColor" stroke-linecap="round" stroke-width="1.65"/>
-          </svg>
-        </span>
-        <span class="brand-text">Garden Maintenance <span>Scotland</span></span>
+        <span class="brand-block" aria-hidden="true">GM</span>
+        <span class="brand-wordmark"><strong>GARDEN MAINTENANCE</strong><small>SCOTLAND</small></span>
       </a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#services">Services</a>
-        <a href="#inspiration">Garden inspiration</a>
-        <a href="#design-study">Before &amp; after</a>
-        <a href="#areas">Areas</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="header-right">
-        <a class="btn btn-forest" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
-        <button class="hamburger" id="menu-button" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
-      </div>
+      <nav class="header-nav" aria-label="Main navigation"><a href="#services">Services</a><a href="#work">What we do</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <div class="header-right"><a class="phone-link" href="tel:+447368950608">07368 950608</a><a class="btn btn-solid header-quote" href="#contact">Request a quote <span aria-hidden="true">↗</span></a><button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" id="menu-button"><span></span><span></span><span></span></button></div>
     </div>
-    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
-      <a href="#services">Services</a>
-      <a href="#inspiration">Garden inspiration</a>
-      <a href="#design-study">Before &amp; after</a>
-      <a href="#areas">Areas we cover</a>
-      <a href="#contact">Get a free quote</a>
-    </nav>
+    <nav class="mobile-menu" id="mobile-menu" hidden aria-label="Mobile menu"><a href="#services">Services</a><a href="#work">What we do</a><a href="#about">About</a><a href="#contact">Contact</a><a href="tel:+447368950608">Call 07368 950608</a></nav>
   </header>
-
-  <main id="content">
-    <!-- Unlike the roofing design, this hero uses centre-set editorial typography and a full-width photograph. -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-top">
-        <p class="eyebrow">Landscaping · Gardens · Outdoor living</p>
-        <h1 id="hero-heading">Beautiful outdoor spaces,<br><em>designed for real life.</em></h1>
-        <p>Landscaping, garden makeovers, patios and outdoor upgrades around Glasgow, East Kilbride and surrounding areas. A more welcoming way to imagine what your garden could become.</p>
-      </div>
-      <div class="container-wide">
-        <div class="hero-stage">
-          <img src="https://images.unsplash.com/photo-1755816764913-bd1104a26d78?auto=format&amp;fit=crop&amp;w=2000&amp;q=85" alt="Genuine stock photo of a residential garden with a pergola, lawn and leafy trees" width="1600" height="960" fetchpriority="high">
-          <span class="hero-label">The good outdoors</span>
-          <div class="hero-floating">
-            <span>More than a nice view</span>
-            <p>A garden for long evenings, easy weekends and all the moments between.</p>
-            <div class="hero-buttons">
-              <a class="btn btn-forest" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
-              <a class="btn btn-outline" href="#inspiration">View our work <span class="btn-arrow" aria-hidden="true">↓</span></a>
-            </div>
-          </div>
-          <p class="hero-caption">A little more room<br>to make memories.</p>
-        </div>
-        <div class="post-hero">
-          <strong>Made to feel good. Built around real gardens.</strong>
-          <span>Design concept · Photographs are illustrative Unsplash stock, not the business's past jobs</span>
-        </div>
-      </div>
+  <main id="main">
+    <section class="hero page-shell" aria-labelledby="hero-title">
+      <div class="hero-meta"><span>LANDSCAPING &amp; GARDEN CARE</span><span>EAST KILBRIDE · GLASGOW</span></div>
+      <div class="hero-text-row"><div><h1 id="hero-title">A garden worth<br><span>coming home to.</span></h1></div><div class="hero-side"><p>From regular upkeep to new patios, fencing and full garden makeovers. Practical garden services for homes and businesses around Glasgow.</p><div class="hero-actions"><a href="#contact" class="btn btn-solid">Get a free estimate <span aria-hidden="true">↗</span></a><a href="#services" class="underlink">See our services <span aria-hidden="true">↓</span></a></div></div></div>
+      <figure class="hero-image"><img src="https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&amp;fit=crop&amp;w=1800&amp;q=83" alt="Real stock photograph of timber decking, a natural stone path and planting in a landscaped garden" fetchpriority="high" width="1800" height="850"><figcaption><span>GARDENS / BUILT FOR EVERYDAY LIFE</span><span>Illustrative stock photograph — not company project imagery</span></figcaption></figure>
+      <div class="service-strip"><span>01 / LANDSCAPING</span><span>02 / GARDEN MAINTENANCE</span><span>03 / PATIOS &amp; DECKING</span><span>04 / PRESSURE WASHING</span></div>
     </section>
-
-    <!-- Three genuine stock photography cards: not fake client projects. -->
-    <section class="section services" id="services" aria-labelledby="services-heading">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">What we can help with</p>
-            <h2 id="services-heading">A space for <em>every season.</em></h2>
-          </div>
-          <p>Big ideas, small improvements, and all the lovely details that make outside feel like home.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-photo"><img src="https://images.unsplash.com/photo-1761637822930-fb1c1a3df94d?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a landscaped garden with a stone path, planting and boundary hedging"></div>
-            <div class="service-body">
-              <p class="eyebrow">01 / Landscape design</p>
-              <h3>Garden landscaping</h3>
-              <p>Complete garden transformations, thoughtful planting and practical layouts that suit how you actually live.</p>
-              <button class="card-link" type="button" data-service="Garden landscaping">Talk about landscaping <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-photo"><img src="https://images.unsplash.com/photo-1755816764831-2803235f0099?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a covered patio and pergola with stone paving and an outdoor kitchen"></div>
-            <div class="service-body">
-              <p class="eyebrow">02 / Outdoor living</p>
-              <h3>Patios &amp; paving</h3>
-              <p>A place for a morning coffee, outdoor meals, or simply sitting back at the end of the day.</p>
-              <button class="card-link" type="button" data-service="Patios and paving">Talk about a patio <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-photo"><img src="https://images.unsplash.com/photo-1704457030816-6b9b08d1bb08?auto=format&amp;fit=crop&amp;w=1000&amp;q=84" width="800" height="680" loading="lazy" alt="Genuine stock photograph of a stone-paved driveway and lawn outside a modern timber house"></div>
-            <div class="service-body">
-              <p class="eyebrow">03 / First impressions</p>
-              <h3>Driveways &amp; kerbs</h3>
-              <p>Neater, more practical entrances with paving and finishing details that welcome you home.</p>
-              <button class="card-link" type="button" data-service="Driveways and kerbs">Talk about a driveway <span aria-hidden="true">↗</span></button>
-            </div>
-          </article>
-        </div>
-        <div class="other-services">
-          <span>Also worth exploring</span>
-          <button type="button" data-service="Decking">Decking ↗</button>
-          <button type="button" data-service="Fencing">Fencing ↗</button>
-          <button type="button" data-service="Garden maintenance">Garden care ↗</button>
-          <button type="button" data-service="Pressure washing">Pressure washing ↗</button>
-        </div>
-        <p class="photo-usage">All photographs are genuine Unsplash stock images used as design inspiration. They do not show verified work by Garden Maintenance Scotland.</p>
-      </div>
+    <section class="services-section" id="services" aria-labelledby="services-title">
+      <div class="page-shell services-layout"><div class="section-aside"><span class="section-label">01 / SERVICES</span><h2 id="services-title">The right job,<br>done properly.</h2><p>Whether the garden needs one visit or a bigger rethink, there's a straightforward place to start.</p><p class="aside-fact">Hard landscaping. Soft landscaping. General upkeep.</p></div><div class="service-list">
+        <button class="service-row" type="button" data-service="Landscaping & garden redesign"><span class="row-index">01</span><span class="row-copy"><strong>Landscaping &amp; garden redesign</strong><small>New layouts, natural turf, paths, borders and outdoor improvements</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+        <button class="service-row" type="button" data-service="Patios & paving"><span class="row-index">02</span><span class="row-copy"><strong>Patios &amp; paving</strong><small>Stone, paving and useful spaces for outdoor living</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+        <button class="service-row" type="button" data-service="Garden maintenance"><span class="row-index">03</span><span class="row-copy"><strong>Garden maintenance</strong><small>Grass cutting, hedges, seasonal tidy-ups and general care</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+        <button class="service-row" type="button" data-service="Decking & fencing"><span class="row-index">04</span><span class="row-copy"><strong>Decking &amp; fencing</strong><small>Fences, timber decking and practical garden structures</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+        <button class="service-row" type="button" data-service="Pressure washing"><span class="row-index">05</span><span class="row-copy"><strong>Pressure washing</strong><small>Refresh patios, driveways and outdoor hard surfaces</small></span><span class="row-arrow" aria-hidden="true">↗</span></button>
+      </div></div>
     </section>
-
-    <!-- Honest web-design before / after: links to actual sites, not AI-fabricated screenshots. -->
-    <section class="comparison-section" id="design-study" aria-labelledby="comparison-heading">
-      <div class="container comparison-layout">
-        <div class="comparison-title">
-          <p class="eyebrow">The design story / before &amp; after</p>
-          <h2 id="comparison-heading">A clearer first <em>impression.</em></h2>
-          <p>Every good outdoor project begins with an idea. This redesign explores how warmer photography, simpler navigation and a more inviting mobile journey could help visitors take that first step. Explore the original and the concept yourself—no invented results.</p>
-        </div>
-        <div class="comparison-cards">
-          <article class="compare-card">
-            <span class="compare-kicker">01 / Before · original website</span>
-            <div class="compare-icon" aria-hidden="true">↖</div>
-            <h3>Where it started</h3>
-            <p>See the company's existing public website, with its own services, information and enquiry journey.</p>
-            <a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Explore the original <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="compare-card compare-card--after">
-            <span class="compare-kicker">02 / After · Landing Rescue concept</span>
-            <div class="compare-icon" aria-hidden="true">✳</div>
-            <h3>Room to imagine</h3>
-            <p>Large real photos, quieter layouts, direct service options and a simpler demonstration enquiry flow.</p>
-            <a href="#services">Explore our redesign <span aria-hidden="true">↓</span></a>
-          </article>
-        </div>
-      </div>
+    <section class="work-section page-shell" id="work" aria-labelledby="work-title"><div class="work-head"><div><span class="section-label">02 / OUTDOOR SPACES</span><h2 id="work-title">Different gardens.<br>Different needs.</h2></div><p>Sometimes it's a complete change. Sometimes it's just getting the garden back under control. Here's the sort of work the business covers.</p></div>
+      <div class="work-grid"><figure class="work-picture large"><img loading="lazy" src="https://images.unsplash.com/photo-1761637822930-fb1c1a3df94d?auto=format&amp;fit=crop&amp;w=1100&amp;q=83" width="900" height="740" alt="Real stock photo of a tidy stone garden path and established planting"><figcaption>LANDSCAPING &amp; PAVING <span>01</span></figcaption></figure><figure class="work-picture small"><img loading="lazy" src="https://images.unsplash.com/photo-1772364588940-cc5b73730450?auto=format&amp;fit=crop&amp;w=900&amp;q=82" width="760" height="700" alt="Real stock photo of a neat lawn in front of a stone cottage"><figcaption>LAWN &amp; GARDEN CARE <span>02</span></figcaption></figure></div><p class="image-disclaimer">Photography is from Unsplash and illustrates types of work. These are not claimed to be Garden Maintenance Scotland's completed projects.</p>
     </section>
-
-    <!-- A gallery of third-party stock photographs, explicitly not fabricated project history. -->
-    <section class="section inspiration" id="inspiration" aria-labelledby="inspiration-heading">
-      <div class="container">
-        <div class="gallery-heading">
-          <p class="eyebrow">The garden inspiration edit</p>
-          <h2 id="inspiration-heading">Imagine <em>the possibilities.</em></h2>
-          <p>A few inspiring directions for outdoor living. Every image is genuine stock photography, not a claimed client transformation.</p>
-        </div>
-        <div class="filter-row" role="group" aria-label="Filter inspiration gallery">
-          <button type="button" class="is-active" data-gallery-filter="all" aria-pressed="true">All inspiration</button>
-          <button type="button" data-gallery-filter="living" aria-pressed="false">Outdoor living</button>
-          <button type="button" data-gallery-filter="gardens" aria-pressed="false">Garden details</button>
-        </div>
-        <div class="gallery-grid">
-          <figure class="gallery-item large" data-category="living">
-            <button class="gallery-open" type="button" data-caption="Timber decking & outdoor living — illustrative stock photograph, not company work" aria-label="View a larger photograph of timber decking">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1734079692147-c6fc9438a2d0?auto=format&amp;fit=crop&amp;w=1250&amp;q=84" width="900" height="1200" alt="Timber decking, stone edging and planting in a landscaped garden">
-              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Space to unwind <span aria-hidden="true">↗</span></strong></span>
-            </button>
-          </figure>
-          <figure class="gallery-item" data-category="gardens">
-            <button class="gallery-open" type="button" data-caption="Contemporary garden path and planting — illustrative stock photograph, not company work" aria-label="View a larger garden pathway photograph">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1761637823276-7d714eb45cb1?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Landscaped stone garden steps with greenery and planting">
-              <span class="photo-meta"><small>Garden details / stock image</small><strong>A softer journey <span aria-hidden="true">↗</span></strong></span>
-            </button>
-          </figure>
-          <figure class="gallery-item" data-category="gardens">
-            <button class="gallery-open" type="button" data-caption="Fresh lawns and green space — illustrative stock photograph, not company work" aria-label="View a larger photograph of a cottage and green lawn">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1772364588940-cc5b73730450?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Green lawn outside a charming stone cottage">
-              <span class="photo-meta"><small>Green spaces / stock image</small><strong>Easy green days <span aria-hidden="true">↗</span></strong></span>
-            </button>
-          </figure>
-          <figure class="gallery-item" data-category="living">
-            <button class="gallery-open" type="button" data-caption="Contemporary planted patio — illustrative stock photograph, not company work" aria-label="View a larger photograph of a planted modern patio">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1776186243408-3c0489503faa?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Modern patio with planting, stone steps and outdoor seating">
-              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Quiet corners <span aria-hidden="true">↗</span></strong></span>
-            </button>
-          </figure>
-          <figure class="gallery-item" data-category="living">
-            <button class="gallery-open" type="button" data-caption="Sunlit pergola garden — illustrative stock photograph, not company work" aria-label="View a larger photograph of a garden pergola">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1755816764913-bd1104a26d78?auto=format&amp;fit=crop&amp;w=900&amp;q=84" width="800" height="620" alt="Sunlit garden with a pergola, lawn and leafy trees">
-              <span class="photo-meta"><small>Outdoor living / stock image</small><strong>Room to gather <span aria-hidden="true">↗</span></strong></span>
-            </button>
-          </figure>
-        </div>
-        <p class="gallery-footnote">Inspiration only · We are not claiming these are completed projects or client photographs.</p>
-      </div>
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="page-shell about-grid"><div><span class="section-label">03 / ABOUT THE SERVICE</span><h2 id="about-title">Local know-how.<br>Clear next steps.</h2></div><div class="about-copy"><p>Garden Maintenance Scotland is based in East Kilbride and works with homeowners and commercial customers around Glasgow and the surrounding area.</p><p>The business offers hard and soft landscaping, including everything from grass cutting and hedge care to larger garden redesigns. Its existing website says no job is too small and advertises free consultations for garden design projects.</p><a class="underlink" href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">See the original business website <span aria-hidden="true">↗</span></a><span class="small-source">Service information drawn from the company's published website.</span></div></div>
     </section>
-
-    <!-- These are website design benefits, not fabricated claims about the business. -->
-    <section class="why-section" id="why" aria-labelledby="why-heading">
-      <div class="container why-layout">
-        <div class="why-intro">
-          <p class="eyebrow">Behind this redesign</p>
-          <h2 id="why-heading">Thoughtful, <em>from the first click.</em></h2>
-          <p>This is what we want every visitor to feel: welcomed, informed, and confident enough to start the conversation. These are design priorities, not measured client outcomes.</p>
-        </div>
-        <div class="why-grid">
-          <article class="why-card"><span class="number">01</span><h3>A warmer first impression</h3><p>An inviting layout that feels as considered as the garden itself.</p></article>
-          <article class="why-card"><span class="number">02</span><h3>Made for your phone</h3><p>Readable content, quick navigation and simple enquiries on smaller screens.</p></article>
-          <article class="why-card"><span class="number">03</span><h3>Pictures tell the story</h3><p>Photographs put outdoor possibilities at the centre of the experience.</p></article>
-          <article class="why-card"><span class="number">04</span><h3>Easy to take the next step</h3><p>Clear service choices, local context and a straightforward quote route.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="area-section" id="areas" aria-labelledby="areas-heading">
-      <div class="container area-layout">
-        <div>
-          <p class="eyebrow">Locally rooted</p>
-          <h2 id="areas-heading">Closer to <em>home.</em></h2>
-          <p class="area-copy">Garden Maintenance Scotland is based in East Kilbride and describes work around Glasgow and surrounding areas. Pick an area below to see how a quick enquiry could be tailored to you.</p>
-        </div>
-        <div class="area-panel">
-          <p>Where would your garden project be?</p>
-          <div class="area-tags" role="group" aria-label="Set area in the demonstration form">
-            <button type="button" data-area="Glasgow" aria-pressed="false">Glasgow ↗</button>
-            <button type="button" data-area="East Kilbride" aria-pressed="false">East Kilbride ↗</button>
-            <button type="button" data-area="Hamilton" aria-pressed="false">Hamilton ↗</button>
-            <button type="button" data-area="Bothwell" aria-pressed="false">Bothwell ↗</button>
-            <button type="button" data-area="Newton Mearns" aria-pressed="false">Newton Mearns ↗</button>
-            <button type="button" data-area="Clarkston" aria-pressed="false">Clarkston ↗</button>
-          </div>
-          <small>Area suggestions demonstrate the interface. The business must confirm whether your address is within its current service area.</small>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
-      <div class="container contact-layout">
-        <div class="contact-intro">
-          <p class="eyebrow">Let's get started</p>
-          <h2 id="contact-heading">Your dream garden <em>starts here.</em></h2>
-          <p>A good first conversation doesn't need to be complicated. Try the interactive quote form using example details—it demonstrates how an enquiry could work without sending anything.</p>
-          <div class="direct-contact">
-            <strong>Want a real quote from the company?</strong>
-            <a href="https://www.gardenmaintenancescotland.co.uk/contact/" target="_blank" rel="noopener noreferrer">Go to their official contact page ↗</a>
-            <a href="mailto:info@gardenmaintenancescotland.co.uk">Email the real business ↗</a>
-          </div>
-        </div>
-        <div class="enquiry-card">
-          <div class="enquiry-heading">
-            <h3>Tell us your ideas</h3>
-            <span class="demo-tag">Working demo</span>
-          </div>
-          <p class="enquiry-desc">No account needed. No details saved. Please use fictional contact details for this demonstration.</p>
-          <form id="enquiry-form">
-            <div class="field-row">
-              <div class="field"><label for="enquiry-name">Your name <span>*</span></label><input id="enquiry-name" name="name" placeholder="e.g. Alex Example" required autocomplete="off"></div>
-              <div class="field"><label for="enquiry-email">Email address <span>*</span></label><input id="enquiry-email" name="email" type="email" placeholder="alex@example.com" required autocomplete="off"></div>
-            </div>
-            <div class="field-row">
-              <div class="field"><label for="enquiry-phone">Phone number</label><input id="enquiry-phone" name="phone" type="tel" placeholder="Optional for demo" autocomplete="off"></div>
-              <div class="field"><label for="enquiry-area">Town or area <span>*</span></label><input id="enquiry-area" name="area" placeholder="e.g. Glasgow" required autocomplete="off"></div>
-            </div>
-            <div class="field">
-              <label for="enquiry-service">What can we help with? <span>*</span></label>
-              <select id="enquiry-service" name="service" required>
-                <option value="">Please choose a service</option>
-                <option>Garden landscaping</option>
-                <option>Patios and paving</option>
-                <option>Driveways and kerbs</option>
-                <option>Decking</option>
-                <option>Fencing</option>
-                <option>Garden maintenance</option>
-                <option>Pressure washing</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
-            <div class="field"><label for="enquiry-message">Tell us about your garden</label><textarea id="enquiry-message" name="message" rows="4" placeholder="What would you love to change?"></textarea></div>
-            <button class="btn btn-forest" type="submit">Preview quote enquiry <span class="btn-arrow" aria-hidden="true">↗</span></button>
-            <p class="form-note">Concept only: this form validates entries and displays a demo confirmation. It does not transmit or store your information.</p>
-            <div id="form-message" class="form-message" role="status" aria-live="polite" hidden></div>
-          </form>
-        </div>
-      </div>
-    </section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="page-shell contact-layout"><div class="contact-intro"><span class="section-label">04 / GET IN TOUCH</span><h2 id="contact-title">Tell us what your<br>garden needs.</h2><p>Choose a service and describe the job. This demo shows how an enquiry could work on a commissioned website.</p><div class="contact-direct"><strong>CONTACT THE ACTUAL BUSINESS</strong><a href="tel:+447368950608">07368 950608</a><a href="mailto:info@gardenmaintenancescotland.co.uk">info@gardenmaintenancescotland.co.uk</a><a href="https://www.gardenmaintenancescotland.co.uk/contact/" target="_blank" rel="noopener noreferrer">Visit the official contact page ↗</a></div></div>
+      <div class="form-wrap"><div class="form-header"><h3>Request an estimate</h3><span>DEMO FORM</span></div><form id="enquiry-form" action="#contact" novalidate><div class="fieldline"><label for="demo-name">Your name <span>*</span></label><input id="demo-name" name="name" autocomplete="off" required placeholder="Alex Example"></div><div class="fieldline"><label for="demo-email">Email address <span>*</span></label><input id="demo-email" name="email" type="email" autocomplete="off" required placeholder="alex@example.com"></div><div class="two-fields"><div class="fieldline"><label for="demo-area">Area <span>*</span></label><input id="demo-area" name="area" autocomplete="off" required placeholder="e.g. East Kilbride"></div><div class="fieldline"><label for="demo-service">Service <span>*</span></label><select id="demo-service" name="service" required><option value="">Select a service</option><option>Landscaping & garden redesign</option><option>Patios & paving</option><option>Garden maintenance</option><option>Decking & fencing</option><option>Pressure washing</option><option>Not sure</option></select></div></div><div class="fieldline"><label for="demo-message">A little about the job</label><textarea id="demo-message" rows="4" name="message" placeholder="Tell us what needs doing..."></textarea></div><button class="btn btn-solid submit-btn" type="submit">Preview enquiry <span aria-hidden="true">↗</span></button><p class="form-honesty">This is a design demonstration. Do not enter real personal data. Nothing is sent or saved.</p><div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div></form></div>
+    </div></section>
+    <section class="compare-banner" aria-labelledby="compare-title"><div class="page-shell compare-grid"><div><span class="section-label">WEBSITE DESIGN COMPARISON</span><h2 id="compare-title">See what changed.</h2><p>Compare the existing company website with this independent concept. No fabricated screenshots, client reviews or sales claims.</p></div><div class="compare-links"><a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">01 &nbsp; Original company website <span aria-hidden="true">↗</span></a><a href="#top">02 &nbsp; This redesign concept <span aria-hidden="true">↑</span></a></div></div></section>
   </main>
+  <footer class="footer"><div class="page-shell footer-top"><div><span class="footer-brand">GARDEN MAINTENANCE<br>SCOTLAND</span><p>Independent website design study by <a href="../../index.html#work">Landing Rescue</a>. Not the company's official site and not commissioned or approved by the business. Stock photography is illustrative and not evidence of finished projects.</p></div><div class="footer-details"><a href="#services">Services</a><a href="#work">Outdoor spaces</a><a href="#contact">Enquiry demo</a><a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></div><div class="page-shell footer-bottom"><span>© <span id="year">2026</span> Landing Rescue — independent design concept.</span><span>Images: Unsplash stock photography</span></div></footer>
+  <a href="#contact" class="mobile-cta">Request a quote <span aria-hidden="true">↗</span></a>
+<script>
+/* Independent portfolio concept by Landing Rescue. No network requests or storage. */
+(() => {
+  'use strict';
+  const menuButton=document.getElementById('menu-button');
+  const menu=document.getElementById('mobile-menu');
+  const form=document.getElementById('enquiry-form');
+  const select=document.getElementById('demo-service');
+  const result=document.getElementById('form-result');
+  const reduced=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const scrollToContact=()=>document.getElementById('contact').scrollIntoView({behavior:reduced?'auto':'smooth'});
+  function closeMenu(){menu.hidden=true;menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Open menu');}
+  menuButton.addEventListener('click',()=>{const next=menu.hidden;menu.hidden=!next;menuButton.setAttribute('aria-expanded',String(next));menuButton.setAttribute('aria-label',next?'Close menu':'Open menu');});
+  menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+  document.querySelectorAll('[data-service]').forEach(button=>button.addEventListener('click',()=>{select.value=button.dataset.service;result.hidden=true;scrollToContact();}));
+  form.addEventListener('input',()=>{result.hidden=true;});
+  form.addEventListener('submit',e=>{
+    e.preventDefault();
+    if(!form.reportValidity())return;
+    result.textContent='This is a working form preview: no enquiry has been sent or stored. A commissioned website would now securely send the customer’s request to the business. For a real quote, use the company’s official contact details above.';
+    result.hidden=false;
+    result.scrollIntoView({behavior:reduced?'auto':'smooth',block:'nearest'});
+  });
+  document.getElementById('year').textContent=String(new Date().getFullYear());
+})();
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-main">
-        <div>
-          <p class="footer-brand">Garden Maintenance <span>SCOTLAND</span></p>
-          <p><strong>Independent design concept by Landing Rescue.</strong> Not the company's official website or a commissioned project. All photography is real Unsplash stock used for illustration, not verified completed work. No real enquiries are collected.</p>
-          <p>Stock photography featured: Kyle Ledyard, Yudiono Putranto, Sergej Karpow, FRAEM GmbH, Tanya Barrow and Caroline Badran via Unsplash. <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer" style="text-decoration:underline">Image licence</a>.</p>
-        </div>
-        <div class="footer-links">
-          <a href="#services">Explore services ↗</a>
-          <a href="#inspiration">Browse inspiration ↗</a>
-          <a href="#design-study">Before &amp; after ↗</a>
-          <a href="https://www.gardenmaintenancescotland.co.uk/" target="_blank" rel="noopener noreferrer">Official business website ↗</a>
-          <a href="../../index.html#work">Landing Rescue portfolio ↗</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span id="year">2026</span> Independent design concept · Landing Rescue</span>
-        <span>Built to explore design ideas, not to impersonate the business.</span>
-      </div>
-    </div>
-  </footer>
-
-  <dialog class="photo-dialog" id="photo-dialog" aria-label="Larger garden inspiration photo">
-    <figure>
-      <img id="photo-dialog-image" src="data:," alt="">
-      <figcaption>
-        <p id="photo-dialog-caption"></p>
-        <button type="button" class="dialog-close">Close ✕</button>
-      </figcaption>
-    </figure>
-  </dialog>
-  <a class="btn btn-forest mobile-cta" href="#contact">Get a free quote <span class="btn-arrow" aria-hidden="true">↗</span></a>
+</script>
 </body>
 </html>

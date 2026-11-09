@@ -661,3 +661,27 @@ section { padding-block: clamp(72px, 11vw, 152px); }
 .comparison-before .comparison-eyebrow{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.1em;opacity:.69}
 .comparison-before strong{font-family:var(--serif);font-weight:400;font-size:clamp(19px,2.8vw,30px);line-height:1.1}
 .comparison-before span:last-child{font-size:12px;opacity:.78;line-height:1.6}
+
+
+/* Original gardening-concept thumbnail, assembled from real HTML/CSS and free stock photography */
+.project-media--garden{background:#f7f6f0}
+.garden-thumb{width:100%;height:100%;display:flex;flex-direction:column;background:#f7f6f0;color:#20352b;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
+.garden-thumb-nav{height:13%;flex:none;background:#fafbf7;display:flex;align-items:center;justify-content:space-between;gap:2%;padding:1.8% 3.5%;border-bottom:1px solid #dde2d8}
+.garden-thumb-logo{font-size:clamp(8px,.88vw,13px);font-weight:900;line-height:1.05;letter-spacing:.025em}
+.garden-thumb-logo small{font-size:.67em;letter-spacing:.06em}
+.garden-thumb-nav-links{font-size:clamp(5px,.68vw,10px);font-weight:800;letter-spacing:.025em;margin-left:auto;white-space:nowrap}
+.garden-thumb-nav-cta{background:#20352b;color:#fff;font-size:clamp(5px,.65vw,9px);padding:1.5% 1.8%;white-space:nowrap;font-weight:800}
+.garden-thumb-main{flex:1;min-height:0;display:grid;grid-template-columns:49% 51%}
+.garden-thumb-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:6%;padding:5.5% 5.4%}
+.garden-thumb-label{font-size:clamp(5px,.62vw,9px);font-weight:800;letter-spacing:.08em}
+.garden-thumb-copy strong{font-family:Georgia,serif;font-size:clamp(19px,3.35vw,51px);font-weight:400;line-height:.96;letter-spacing:-.05em}
+.garden-thumb-copy strong em{color:#799476;font-weight:400}
+.garden-thumb-description{font-size:clamp(6px,.78vw,11px);line-height:1.4;color:#6c7a6b}
+.garden-thumb-cta{font-size:clamp(5px,.7vw,10px);font-weight:900;background:#20352b;color:#fff;padding:3.2% 5.2%}
+.garden-thumb-image{overflow:hidden;position:relative;background:#9caf90}
+.garden-thumb-image img{width:100%;height:100%;object-fit:cover}
+.garden-thumb-image:after{content:"";position:absolute;inset:50% 0 0;background:linear-gradient(transparent,#16301ab0);pointer-events:none}
+.garden-thumb-image span{position:absolute;z-index:1;left:6%;bottom:7%;color:#fff;font-family:Georgia,serif;font-size:clamp(11px,1.6vw,24px);line-height:1.1}
+.garden-thumb-footer{height:11%;display:flex;align-items:center;justify-content:space-around;gap:1%;padding:1% 3%;background:#dce4d7;font-size:clamp(5px,.68vw,10px);font-weight:800;white-space:nowrap}
+@media(max-width:860px){.garden-thumb-copy strong{font-size:clamp(23px,5.4vw,49px)}.garden-thumb-logo{font-size:clamp(7px,1.3vw,12px)}.garden-thumb-nav-links{font-size:clamp(5px,.83vw,10px)}.garden-thumb-label{font-size:clamp(5px,1vw,9px)}.garden-thumb-description{font-size:clamp(7px,1.15vw,11px)}.garden-thumb-image span{font-size:clamp(12px,2vw,23px)}}
+@media(max-width:420px){.garden-thumb-nav-links{display:none}.garden-thumb-copy strong{font-size:clamp(17px,5.3vw,30px)}.garden-thumb-footer{font-size:4.6px;letter-spacing:-.02em}}

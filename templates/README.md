@@ -3,11 +3,11 @@
 There are now two independent working design studies:
 
 - `work/london-roofing/index.html` — trades and roofing, compact single-file layout.
-- `work/garden-maintenance-scotland/index.html` — a distinct, blue-and-yellow, service-first gardening design with a working job picker, practical service rows, genuine work-focused stock photography and an honest demo form.
+- `work/garden-maintenance-scotland/index.html` — the original sage/cream landscaping concept, with three photographed services, service filters, area shortcuts and an honest demo form.
 
 Both are **unofficial design concepts**, not approved client projects or a client's original work.
 
-Reuse the technical patterns (accessible navigation, accurate service content, responsive design and safe forms), not the visual arrangement. The garden redesign is deliberately service-led instead of editorial, and uses one self-contained HTML file.
+Reuse the technical patterns (accessible navigation, accurate service content, responsive design and safe forms), not the visual arrangement. The original garden concept uses a separate HTML page, CSS file and JavaScript file; this is the version the user preferred.
 
 ## Reuse the accessibility and interaction patterns, not a visual template
 
@@ -48,8 +48,8 @@ For each new sector example:
 ## Sector-design contrast (November 2026)
 
 - Roofing: high-contrast, bold, quote-first concept.
-- Garden Maintenance Scotland: blue-and-yellow practical service interface with bespoke mowing-stripe icon, interactive "What needs doing?" chooser, real gardening stock photographs, large service rows and demo quote form. No fabricated customer stories or real project photos.
+- Garden Maintenance Scotland: sage/cream editorial landscaping concept with photographic service cards, service filters, and a demo quote form. Images are illustrative stock photography, not claimed client projects.
 
-The garden page now lives entirely in `work/garden-maintenance-scotland/index.html`. The older `lifestyle.css`, `lifestyle.js`, `style.css` and `script.js` variants were retired.
+The garden concept consists of `work/garden-maintenance-scotland/index.html`, `style.css` and `script.js`. The later blue/yellow and alternate lifestyle experiments were rolled back after user feedback.
 
 Use real project photography and an approved business logo when an actual customer supplies them. Until then, identify stock photos and speculative branding clearly.
